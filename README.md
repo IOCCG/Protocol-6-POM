@@ -1,7 +1,7 @@
 # IOCCG Protocol Series	
 ## Ocean Optics & Biogeochemistry Protocols for Satellite Ocean Colour Sensor Validation
 ## Protocol 6: Particulate Organic Matter Sampling and Measurement Protocols: Consensus Towards Future Ocean Color Missions
-DOI: (http://dx.doi.org/10.25607/OBP-1646)[http://dx.doi.org/10.25607/OBP-1646]
+DOI: [http://dx.doi.org/10.25607/OBP-1646](http://dx.doi.org/10.25607/OBP-1646)
 
 
 ## Authors:
