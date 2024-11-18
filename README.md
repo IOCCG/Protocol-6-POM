@@ -1,4 +1,6 @@
-This repository contains an editable version of the published IOCCG Protocols for community discussion, and Q&A through the "issues" feature. These discussions are meant to be open and accessible to all interested in using the protocol, and will help advance improvements and updates to the protocol versions through community discussion. See the DOI or the [IOCCG website](https://ioccg.org/what-we-do/ioccg-publications/ioccg-protocols/) for the published version (in PDF).
+This repository contains a version of the published IOCCG Protocols for reference and for community discussion, and Q&A through the "Discussions" feature, and direct improvements to the protocol content through the "Issues" feature. These engagements are meant to be open and accessible to all interested in using the protocol, and will help the community to better implement the protocols, as well as advance improvements and updates to the protocol versions through community discussion. See the DOI or the [IOCCG website](https://ioccg.org/what-we-do/ioccg-publications/ioccg-protocols/) for the published version (in PDF). 
+
+Note: The version on Github repository might have some equations or characters that do not display correctly at this time. Please ignore these for now, and use the final version as your guide. 
 
 # IOCCG Protocol Series	
 ## Ocean Optics & Biogeochemistry Protocols for Satellite Ocean Colour Sensor Validation
