@@ -13,34 +13,34 @@ Significant contributions by all authors and reviewers made the completion of th
 
 1. Introduction and Background	7
 2. Sample Collection	9
-	1.	In situ Pumps	9
-	2.	Shipboard Underway Systems	10
-	3.	Niskin Bottles	11
+	- 2.1 In situ Pumps	9
+	- 2.2 Shipboard Underway Systems	10
+	- 2.3 Niskin Bottles	11
 3. Sample Processing	15
-	1.	Bench-Top Filtration	15
-	2.	Filter Type	15
-	3.	Filter Combustion	19
-	4.	Filtration Pressure	19
-	5.	Replication	20
-	6.	Sample Storage and Shipment	20
+	- 3.1 Bench-Top Filtration	15
+	- 3.2 Filter Type	15
+	- 3.3 Filter Combustion	19
+	- 3.4 Filtration Pressure	19
+	- 3.5 Replication	20
+	- 3.6 Sample Storage and Shipment	20
 4. Filtrate Blank	21
-	1.	Regression-Based Corrections	22
-	2.	Filtrate Blank Filters	24
-	3.	Dipped Blanks from in situ Filtration	25
-	4.	Measurement Precision: Filtrate Blank Filters vs. Regression Correction	26
+	- 4.1 Regression-Based Corrections	22
+	- 4.2 Filtrate Blank Filters	24
+	- 4.3 Dipped Blanks from in situ Filtration	25
+	- 4.4 Measurement Precision: Filtrate Blank Filters vs. Regression Correction	26
 5. Sample Processing for Elemental Analysis	26
-	5.1		Filter Sub-Sampling	26
-	5.2		Drying		26
-	5.3		Removal of Inorganic Carbon	27
-	5.4		Sample Encapsulation	28
+	- 5.1 Filter Sub-Sampling	26
+	- 5.2 Drying		26
+	- 5.3 Removal of Inorganic Carbon	27
+	- 5.4 Sample Encapsulation	28
 6. Elemental Analysis	29
-	1.	Instrumentation	29
-	2.	Calibration and Performance	31
-	3.	Calculations and Data Analysis	33
-	4.	Uncertainty and Performance Metrics	35
-	5.	Balance Precision and Weighing Protocol	40
-	6.	Reporting	40
-	7.	Consensus Reference Material	42
+	- 6.1 Instrumentation	29
+	- 6.2 Calibration and Performance	31
+	- 6.3 Calculations and Data Analysis	33
+	- 6.4 Uncertainty and Performance Metrics	35
+	- 6.5 Balance Precision and Weighing Protocol	40
+	- 6.6 Reporting	40
+	- 6.7 Consensus Reference Material	42
 7.	References	43
 - A. Summary Appendices	50
 	- A.1.1	Consensus Summary of Best Practices	50
@@ -63,7 +63,7 @@ It is critical to explicitly define the measurement objective for each quantity 
 
 A widely employed and cited POC and PN method for small-volume samples (i.e., < 10 L) was prepared as part of the protocol recommendations for the Joint Global Ocean Flux Study (JGOFS; Knap et al., 1994). Further sampling techniques aimed explicitly at collecting larger masses of particles have been developed using in situ pumps capable of filtering large volumes (i.e., hundreds to thousands of liters) over the scale of several hours (Bishop and Edmond, 1976; McDonnell et al., 2015). However, most studies comparing bottle and pump-derived POC have found lower POC concentrations using pumps. Early studies showing two to three-fold (Moran et al., 1999) and up to two orders of magnitude (Gardner et al., 2003) differences between bottle and pump POC prompted scrutiny of sampling and analytical protocols for POC and particulates in general (Bishop et al., 2012; Gardner et al., 2003; Liu et al., 2009, 2005; Moran et al., 1999; Planquette and Sherrell, 2012; Turnewitsch et al., 2007; Twining et al., 2015). Other potential sources of discrepancy examined included differences in filtration pressure (Gardner et al., 2003; Liu et al., 2005), filter type (Bishop et al., 2012), particle settling in bottles (Gardner, 1977; Planquette and Sherrell, 2012), breakage or leakage of phytoplankton and other cells (e.g., Collos et al., 2014), creation of particles (Liu et al., 2005), and the inconsistent inclusion of dissolved organic carbon (DOC), dissolved inorganic carbon (DIC), and particulate inorganic carbon (PIC) in the measured content designated as POC. Many sources of error have been highlighted in multiple studies comparing bottle and in situ pump samples (Bishop et al., 2012; Gardner et al., 2003; Liu et al., 2009; Twining et al., 2015). The two-orders-of-magnitude differences found by Gardner et al. (2003) may largely be resolved by Bishop et al. (2012), who found that even under calm ocean conditions, many single and double filter holders on large-volume pumps lost up to 90% of the large particle size fraction. They redesigned the filter holders to alleviate that problem. However, some positive and negative biases are still found at an elemental level (Twining et al., 2015).
 
-	![Figure 1](Images/Fig-1.png)
+![Figure 1](Images/Fig-1.png)
 
 Figure 1. Schematic of mini-MULVFS holder with pictures of the baffle and filter support plates (Bishop et al., 2012). The baffle logic follows that of the main MULVFS filter holder (Bishop and Wood, 2008), with design to facilitate mounting on McLane pumps and handling in the laboratory. A commercial version of this holder is available through McLane Research Laboratories (East Falmouth, MA). 
 
@@ -95,7 +95,7 @@ Underway systems allow for the easy manual collection of surface water samples, 
 
 A major constraint of manual sample collection via underway systems is the effort required to sample and process samples at high frequencies. For some specific applications, such as measuring trace elements or bio-optical measurements, researchers have relied on custom systems that either substitute or work in tandem with a ship’s built-in system (e.g., McDonnell et al., 2015; Cetinić et al., 2016, Boss et al., 2019). Relatively novel custom set-ups, such as the semi-automated filtration system (SAFS) for collecting particulate samples from shipboard underway systems, are now used to investigate POM distributions in surface waters at high resolution in a variety of marine settings (e.g., Holser et al., 2011, Goñi et al., 2019). Goñi et al. (2019) provide a full description of the SAFS; in brief, it consists of collecting samples of measured volumes of water at predetermined intervals. The SAFS is designed to be connected directly to the ship’s surface underway system and uses the flow and pressure in the line to push water through filters to collect particles (Figure 2). A flywheel flow meter placed in-line and connected to a laptop computer enables the measurement of flows during the filtration stage, and the determination of total volume passed through each filter. A switching valve with multiple ports is placed downstream from the flow meter and controlled by the computer. 
 
-	![Figure 2](Images/Fig-2.png)
+![Figure 2](Images/Fig-2.png)
 
 Figure 2. Schematic of the semi-automated filtration system (SAFS; Goñi et al. 2019). See Section 2.2.1 for description of components and mode of operation.
 
@@ -123,7 +123,7 @@ Extra care must be taken during rosette retrieval in all conditions to avoid los
 
 Suter et al. (2016) studied the differences in microbial communities above and below the spigots, which might not be expected to show any bias because their settling rate is very low as individual particles. They found significant differences in some microbial types associated with particles and minor differences in microbial types less associated with particles, concluding that microbes associated with particles settle as aggregates and then break up during sampling.
 
-	![Figure 3](Images/Fig-3.png)
+![Figure 3](Images/Fig-3.png)
 
 Figure 3. Left: MAC 10® LEAC 2x4 ft (600x1210 mm) fan filter unit (Envirco, Sanford, NC). Right: A bench-top bubble built over a standard lab bench on the R/V Oceanus to process in situ pump samples and conduct open-funnel filtration. A 2’x4’ MAC 10 unit is suspended from eyebolts on the ceiling, and plastic sheeting is draped from the filter unit and taped to the edges of the lab bench to create a clean environment. In this photograph, the open funnel filtration system is out of the frame on the right side of the bench. Anecdotal evidence from this cruise suggested that samples from open funnel filtration conducted outside the clean bubble had many more fibers than those filtered inside the clean bubble, probably due to contamination from the ship’s air handling system.
 
@@ -164,19 +164,19 @@ Open funnels are a practical approach for filtering POM samples. However, some r
 
 POM measurements are made on glass fiber filters given their suitable inorganic matrix. Glass fiber filters are made by laying down a mesh of thin borosilicate fibers, the density of which leads to different effective pore sizes, sorted by different grades. Because a mesh of glass fibers creates the filters, their pore size is “nominal,” meaning their pore size cannot be specified accurately. There is significant literature on the retention efficiency of this broad category of filters (e.g., Li and Dickie 1985; Lee et al., 1995; Morán et al., 1999). There is no universally accepted filter type used in planktonic studies. However, it seems the filter grade used most commonly for particles (e.g., chlorophyll a analysis and POC filtration in 14C primary production incubations) is the glass fiber filter grade F (Moran et al., 1999). Grade F filters, commonly referred to as GF/F, are defined as “fine porosity, medium flow rate, with a 0.7 µm size particle retention.” While glass fiber filter grades are industry standards, there is a wide range of manufacturers; nearly all the major vendors have a glass fiber filter grade F equivalent. It is critical to compare filter types to understand any potential biases because there is no standard manufacturer. A small comparison (n=15) of GF/F and GF-75 (Advantec MFS, Inc. Dublin, CA; nominal pore size 0.3 μm) showed no significant difference in POC measured between the two filter types when 250 mL of sample water were filtered. POC in GF–75 filters had a positive mean bias of 0.52 μmol L-1 (6.3 μg C L-1) relative to those from GF/F filters. However, the differences were not significant at the 95 percent confidence level (Figure 7). Other research investigating the retention of bacterial cells with samples from several ocean regions, including the eutrophic Danish fjord, Baltic Sea, and the subtropical Pacific off Baja California, found that GF-75 retained more bacterial cells than GF/F (60% vs. 49% on average, respectively; Bombar et al., 2018). The latter results suggest that GF-75 filters collect more and presumably smaller particles.
 
-	![Figure 4](Images/Fig-4.png)
+![Figure 4](Images/Fig-4.png)
 
 Figure 4. Open funnel filtration apparatuses. Top left: Borosilicate glass filtering funnel for 25 mm filters, 400 mL capacity, with fritted glass filter support (Kontes, DWK Life Sciences, GMBH). Top right: The same filtering assembly with 1 L filtration flask for collection of filtrate blank (see Section 4.2). Bottom: Filtration assembly showing detail of PVC three-port vacuum manifold (Thermo Fisher Scientific, 09-753-39A).
 
-	![Figure 5](Images/Fig-5.png)
+![Figure 5](Images/Fig-5.png)
 
 Figure 5. Top: Examples of custom, open-funnel filtering setups. Multiple rigs for phytoplankton pigment and POC filtration showing inverted laboratory bottles of different volumes used for sample delivery. Bottom: Schematics of filtering setups depicted in top row. The one at left is for 1 L bottles; the one at right is for 4 L bottles.
 
-	![Figure 6](Images/Fig-6.png)
+![Figure 6](Images/Fig-6.png)
 
 Figure 6. In-line filtration setup. Clockwise from bottom left: Wood filtration rig with vacuum manifold (MF); waste line (WL) with silicone stopper (SS) anchor; Swinnex 25 mm filter holder (FH) modified to accept a male Luer plug (LP) to flush out bubbles, silicone tubing 3.18 mm I.D. (1/8 in) feed line (FL); Nalgene polycarbonate 1 L filtration sample bottle with Diba Labware: T-Series, GL32, two-port bottle cap (BC), semi-rigid polyetherketone (PEEK) tubing  3.18 mm O.D. (1/8 in) vent tube (VT), and filter holder; detail of bottle cap. Right: Schematics of in-line system, showing an optional, second filter holder for filtrate blank collection. 
 
-	![Figure 7](Images/Fig-7.png)
+![Figure 7](Images/Fig-7.png)
 
 Figure 7. Particulate organic carbon (POC) measured on GF–75 glass fiber filters (0.3 µm–pore size) vs. POC measured on GF/F–type filters (0.7 µm–pore size) for near-surface samples (< 25 m) collected off the coast of Peru during R/V Sonne cruise #243. Filters were pre-combusted (450°C for 2 hours) before use. Filtrate blank correction (see Section 4) was obtained from filters with sample water filtered through a prior filter of the same type for each case and then re-filtered to make the blanks. The regression 95% confidence interval (C.I.) encompasses the 1:1 line, and thus the difference between filter types is not significant. Bias was estimated as  Source: (M. Lomas, unpublished data).
 
@@ -186,7 +186,7 @@ For in situ filtration, quartz fiber filters (e.g., Whatman QMA) are a common al
 
 A concern with glass fiber filters is cell leakage or breakage of fragile particles and therefore a loss of organic matter during filtration (e.g., Fuhrman and Bell, 1985; Collos et al., 2014), presumably due to the combined effects of pressure (see Section 3.4), sample loading, and needle-like microfiber ends. A recommendation is to adjust loading and filtration pressure to minimize particle loss. For example, to avoid saturation on GF/F filters, Rasse et al. (2017) proposed an empirical relationship between cp (m-1) at 650 nm and the maximum filtration volume (Vmax; L) given by:
 
-$$V_{max} = 4.1 - 7.9 x c_{p}$(650)$$   (1)
+$$V_{max} = 4.1 - 7.9 \times c_p(650)$$   (1)
 
 The authors found this relationship predicted lower filtration volumes than those used in sample replicates that showed negative intercepts in the relationship of mass of carbon per filter vs. filtered volume used to correct for filtrate blank (see Section 4.1), which they attributed to increased filtration efficiency due to filter overloading (Rasse et al., 2017).
 
@@ -202,7 +202,7 @@ For bottle sample filtration, the suggested maximum vacuum or positive pressures
 
 Table 1. Used or recommended pressure across filter in various filtration protocols or method reviews for POM and other related parameters.
 
-	![Table 1](Images/Table-1.png)
+![Table 1](Images/Table-1.png)
 
 ## 3.5 Replication
 
@@ -218,13 +218,13 @@ It is also possible to fold and fit filters into the silver boat capsules used t
 
 [^3]: Cryogenic storage containers where the vapor phase of the cryogen (e.g., liquid N or He) is absorbed into a hydrophobic matrix to minimize the risk of hazardous spills, making them safe for commercial shipping.
 
-	![Figure 8](Images/Fig-8.png)
+![Figure 8](Images/Fig-8.png)
 
 Figure 8. Assembly steps of aluminum foil pouches for single filter storage before and after sample filtration. Individual sample filters can be stored flat in a pouch sealed on all sides prior to combustion and kept there until use in the field. The pouch is then reused for sample storage and shipment after filtration. After filtration, wet filters must be folded in half, with the retained material on the inside of the folded filter. a: opening; b: bottom.
 
 Table 2: Characteristics of common POC sample containers for shipment and long-term storage.
 
-	![Table 2](Images/Table-2.png)
+![Table 2](Images/Table-2.png)
 
 # 4. Filtrate Blank 
 
@@ -238,29 +238,29 @@ More common approaches involve exposing a filter to the DOM in seawater without 
 
 One of the first indications that filtration for POC samples carried a significant filtrate blank associated with DOC adsorption occurred when the C content of multiple replicate sample filters was plotted against the filtered volume. The resulting linear regression contained a positive y-axis intercept, significantly different from zero (Menzel 1966). This result was interpreted as evidence that an amount of dissolved carbon, understood then as being independent of the filtered volume, was adsorbed onto the filter. This linear relationship and the application of regression analyses offered an approach to correct for the blank (Moran et al., 1999) and tools to understand the mechanisms behind this error. Figure 9 presents an idealized depiction of this relationship.
 
-	![Figure 9](Images/Fig-9.png)
+![Figure 9](Images/Fig-9.png)
 
-Figure 9. Total carbon accumulation per filter, $M^{C}_{T)$, vs. filtered volume for a hypothetical set of three POC sample replicates showing the linear relationship between V and $M^{C}_{T)$, while adsorbed C, $M^{C}_{ads)$, remains constant. The linear regression is the top central term in (1), where the corrected concentration of POC, $C^{C}_{POC)$, is given by the slope of the regression and the filtrate blank by the intercept, $M^{C}_{ads)$.
+Figure 9. Total carbon accumulation per filter, $M^C_T$, vs. filtered volume for a hypothetical set of three POC sample replicates showing the linear relationship between V and $M^C_T$, while adsorbed C, $M^C_{ads}$, remains constant. The linear regression is the top central term in (1), where the corrected concentration of POC, $C^C_{POC}$, is given by the slope of the regression and the filtrate blank by the intercept, $M^C_{ads}$.
 
 Turnewitsch et al. (2007) presented a theoretical and experimental assessment of the application of regression analyses to estimate the magnitude of the filtrate blank as part of a more comprehensive review of the discrepancies between bottle and in situ pump POC measurements. In this section, we build upon their work, adapting their methodology and notation to the discussion of this correction approach.
 
 Consider a measurement of concentration, C, of any element retained on a filter (here developed for the case of carbon, denoted by the superscript ‘C’) for a sample of volume V, uncorrected for filtrate blank, where the observed apparent (subscript ‘A’) concentration,  can be expressed as
 
-$$C^{C}_{A)$ = \frac{C^{C}_{POC}V + M^{C}_{ads}}{V} = \frac{M^{C}_{T}}{V}$$	(2)
+$$C^C_A$ = \frac{C^C_{POC}V + M^C_{ads}}{V} = \frac{M^C_T}{V}$$	(2)
 
-where $C^{C}_{POC}$ is the carbon concentration due to POC alone, and $M^{C}_{ads}$ is the mass, M, of DOC adsorbed (subscript ‘ads’) onto the filter during sample filtration. $M^{C}_{T}$ is the total (subscript ‘T’) mass of adsorbed and particulate carbon retained on the filter. For this exercise, on the top central term in
+where $C^C_{POC}$ is the carbon concentration due to POC alone, and $M^{C}_{ads}$ is the mass, M, of DOC adsorbed (subscript ‘ads’) onto the filter during sample filtration. $M^C_T$ is the total (subscript ‘T’) mass of adsorbed and particulate carbon retained on the filter. For this exercise, on the top central term in
 
-$$C^{C}_{A)$ = \frac{C^{C}_{POC}V + M^{C}_{ads}}{V} = \frac{M^{C}_{T}}{V}$$	(3)
+$$C^C_A = \frac{C^C_{POC}V + M^C_{ads}}{V} = \frac{M^C_T}{V}$$	(3)
 
 the mass of C from POC is expressed as a product of $C^{C}_{POC}$ and V (i.e., mass = concentration x volume). The purpose of that manipulation is so the term becomes a linear regression of the type y = mx + b, which describes $M^{C}_{T}$ as a function of V
 
-$$C^{C}_{A)$ = \frac{mV + b}{V}$$	(4)
+$$C^C_A = \frac{mV + b}{V}$$	(4)
 
 where m and b are the slope and intercept, which respectively are the corrected concentration of POC, $C^{C}_{POC}$, and the adsorbed C, $M^{C}_{ads}$, in (2). Two equivalent approaches derive from (3) to arrive at $C^{C}_{POC}$: One is to correct the total C measured, $M^{C}_{T}$, in each individual sample replicate by subtracting the regression intercept, b, and the other is to directly use the slope, m, as the value of $C^{C}_{POC}$. To implement this correction in typical oceanic or coastal bottle samples (i.e., ~ 0.5-4 L), a minimum of three replicates of different volumes must be processed for each observation so that a representative regression curve can be calculated, such as the one depicted in Figure 9. For example, the largest volume replicate should be at least three times the volume of the lowest, with an additional one in the middle of the volume range. The regression curve can also be applied to the detection of anomalous replicate observations. If a replicate deviates markedly from the regression curve, or contributes to a negative intercept, that observation can be flagged or removed from the final POC or PN value calculation.
 
 The analysis above is predicated on the assumption that the adsorption of DOC or TDN onto the filter is nearly immediate and remains constant and independent of the volume filtered. However, various studies provide evidence for contrasting scenarios regarding the volume dependency of DOC adsorption. In experiments by Turnewitsch et al. (2007), regression analyses of uncorrected POC and PN retention on 25 mm filters versus volume for deep (1975 m) and near surface (4.5 m) samples showed that the material retained early during filtration was a N-enriched fraction of the DOM, while the C:N ratios of the material retained later during filtration were more typical of POC. The implication is that the material retained early on the filter was N-enriched, which was more likely to saturate active adsorption sites on the glass fibers early during filtration. For example, experiments with pre-filtered surface water from diverse locations by Novak et al. (2018) showed that even though DOM adsorption occurred early at a much higher rate, the process had a volume filtered dependency until a saturation point was reached. Despite the diverse origin of their experimental samples, all showed a consistently similar pattern of DOM adsorption as a function of volume filtered. An exponential model with a saturation term fitted to their data performed better than a linear one when describing that relationship. The model has the form
 
-$$M^{C*}_{ads} = M^{C*}_{max} x (1-exp(\frac{-aV}{M^{C*}_{max}}) + b$$	(4)
+$$M^{C\*}_{ads} = M^{C\*}_{max} x 1-exp(\frac{-aV}{M^{C*}_{max}}) + b$$	(4)
 
 Where $M^{C*}_{ads}$ is the adsorbed mass of C as in (2), but uncorrected (superscript $*$) for the blank signal due to the filter itself, usually known as a ‘dry-filter’ blank (i.e., unused filters processed as samples; see Section 6.2.3), denoted by the y-intercept term $b$. The term $M^{C*}_{max}$ is the adsorption saturation term (subscript ‘max’), also uncorrected for dry-filter blank, and a is the slope of the exponential phase, both derived from the regression fit. Novak et al. (2018) fitted the model in (4) to each sample experiment and to all samples combined as a training dataset to develop a ‘global’ exponential model, which was then validated on a subset of experimental data not used for model development. The purpose of their exercise was to develop a possible first approximation approach for correcting historical POC datasets for which filtering volume data is available, not to provide a routine correction approach for new measurements. For the latter, the linear model presented here is preferred. Novak et al. (2018) evaluated their model on $M^{C}_{ads}$ validation datasets from diverse DOM characteristics and found that it described adsorption better than a linear model. Additionally, they performed an adsorption experiment using a Suwannee River Fulvic acid II (SRFA) solution, a reference material issued by the International Humic Substance Society (https://ihss.humicsubstances.org/). The SRFA exponential fit was a low outlier relative to those fitted to the natural samples, suggesting that its chemical nature affected its adsorption potential onto the filters. Experimental evaluation of fulvic acid adsorption onto C various materials has shown that it is highly dependent on the content of polar moieties and pH (Yang and Xing 2009). This relationship between the nature of DOM and its capacity to bind onto glass fiber filters should be considered when assessing blank correction strategies, given that it is likely that the binding capacity of near-surface DOM may differ from that of deep sea samples. Organic-bound N is often charged and relatively polar. Thus, N-depleted deep-sea DOM relative to that in the surface ocean (Benner, 2002) may result in lower adsorption potential for deep-sea DOM. Glass fiber filters are composed of pure borosilicate glass, which contain numerous Si-OH active sites on their surface that can bind to polar substances via hydrogen bonds with amines found in proteins and other N-bearing organic molecules.
 
@@ -280,7 +280,7 @@ For comparison, filtrate blanks found by Goñi et al. (2019) in the Bering, Chuk
 
 The GA03 dipped blanks from the eastern subtropical North Atlantic were significantly (t test; p < 0.05; Lam et al., 2018; Lam et al., 2015; Xiang and Lam, 2020) lower than those from the Western Arctic and lower—though not significantly—than those from the eastern tropical South Pacific. Although there were far fewer observations from the North Atlantic, it is interesting to note that surface DOC concentrations are noticeably lower in the North Atlantic than in the tropical Pacific or Arctic (Hansell et al., 2009), consistent with the idea that absorbed C blanks will scale according to quantity and perhaps quality of DOC.
 
-	![Figure 10](Images/Fig-10.png)
+![Figure 10](Images/Fig-10.png)
 
 Figure 10. Map showing sample distribution during the HLY1203 cruise with the insert showing the amount of carbon in filtered seawater blanks as a function of days of the cruise. The polynomial fit of µg of C mL-1 filtered data is shown along with the 95% confidence intervals (µg C mL-1 = 0.08053 – 0.007155 x + 0.0001947 x2 + 1.575x10-6 x3; where x = days in October 2012).
 
@@ -288,7 +288,7 @@ Figure 10. Map showing sample distribution during the HLY1203 cruise with the in
 
 There is no obvious universal filtrate correction approach for bottle samples due to various considerations that are unique to every sampling campaign. The ultimate choice may come down to logistical concerns. Because true accuracy cannot be assessed with natural samples, one useful performance metric to compare and evaluate both approaches is the precision among sample replicates as measured by the coefficient of variation (CV%) for each measurement. For example, POC and PN replicates collected during the GO-SHIP P06 Leg 2 2017 campaign corrected with the regression approach (POCReg, PNReg,) had higher coefficients of variation than those generated using the blank filter correction (POCFilt, PNFilt,). Median CV% for POC and PN corrected by regression were 12.3% and 34.2%, respectively, versus 8.34% and 10.3% for those corrected by filtrate blank filters collected using a closed, in-line filtering system (Figure 11). These results are not generalizable to other datasets; practitioners are encouraged to assess which correction approach is more appropriate and yields the best result for their application.
 
-	![Figure 11](Images/Fig-11.png)
+![Figure 11](Images/Fig-11.png)
 
 Figure 11. Histograms of coefficient of variation (CV%) of the precision among sample replicates for POC, PN samples collected during the GO-SHIP P06 Leg 2 2017 campaign corrected for the filtrate blank by using (a, c) a blank filter ($POC_{Filt}$, $PNF_{Filt}$), or (b, d) a regression correction ($POC_{Reg}$, $PNR_{Reg}$). Vertical line denotes the median CV%, $\hat{x}$CV%.
 
@@ -311,7 +311,7 @@ For bench-top filter samples using GF75 filters (see Section 3.2), Novak et al. 
 
 Total particulate C is comprised of both organic and inorganic fractions. To properly quantify the organic component of that pool, any inorganic C must be removed from the sample. Removal is typically carried out by acidifying the sample, either by exposing it to acid fumes or by adding a dilute acid solution aliquot. Little is known about the magnitude of the blank or its effect on precision for this procedural step. An inter-calibration exercise among laboratories analyzing total and organic C and N in settling particles collected with sediment traps found higher variability for samples analyzed for organic C over those for total C (King et al., 1998). The authors hypothesized that this higher variability arose from errors introduced during the acidification step and not from the lower organic C concentrations measured, given that for a set of sediment samples also analyzed in that exercise with comparable total C concentrations, the precision among laboratories was better. These results emphasize the need to properly account for any blank that may arise during this processing step, and minimize errors due to organic C loss or incomplete inorganic C removal. A comparison of acidification methods by the type of acid used (i.e., HCl, H2SO4, and H3PO4) found that those using sulfuric acid were more prone to volatilize organic matter (King et al., 1998). Novak et al. (in prep) found no significant differences using 12 M HCl fumes for 24 hours vs. 0.25 mL of 1.2 M HCl onto GF-75 filters for samples of diluted cultures of CaCO3 lith-forming Emiliania huxleyi and the flagellate Dunaliella sp. It is important to note that the acidification step can result in the potential hydrolysis of acid-reactive molecules such as proteins, leading to losses from the sample filter matrix. One benefit of exposing samples to acid in the same receptacle (e.g., silver boat) that is used to carry out the analyses is that such potential losses are minimized (see the application of this method to sediments by Hedges and Stern, 1984).
 
-Other considerations with sample acidification are the effects on PN, stable C and N isotope, and radiocarbon measurements. Current recommendations when measuring $\delta^{13}$C and $\delta^{15}$N in POM samples are to perform $\delta^{15}$N on non-acidified samples due to measurable changes in N isotope ratios due to acidification (Carabel et al. 2006). Brodie et al. (2011) examined both rinsing and fuming of aquatic and terrestrial organic samples with HCl and H3PO4. The authors concluded that the HCl rinse technique directly in combustion capsules provided the most consistent results for bulk POC and PN abundance. The fuming method with HCl did not provide as consistent or accurate results. In a study of carbonate removal in coastal sediments, Komada et al. (2008) determined that fuming sediments with HCl over 24 hours provided accurate organic C, $\delta^{13}$C, and Δ14C compared to the addition of 1 N aqueous HCl to the samples. Hernes et al. (2001) evaluated the performance of acid fuming vs. acidifying with a solution on carbonate-rich sediment samples (>10% inorganic C) collected in the Eastern Equatorial Pacific and found that fuming was not effective at removing all the inorganic C. For radiocarbon dating purposes, Bao et al. (2019) recommended fuming HCl versus adding HCl solution for removal of inorganic carbon in low carbonate sediment samples. Note that Bao et al. (2019) inserted NaOH pellets into the desiccator following acidification to remove remaining acid and chloride ions to protect their ramped pyrolysis oxidation equipment from damage. It may be worth exploring whether this procedure could reduce wear and tear on elemental analyzer instruments. 
+Other considerations with sample acidification are the effects on PN, stable C and N isotope, and radiocarbon measurements. Current recommendations when measuring $\delta ^{13}$C and $\delta ^{15}$N in POM samples are to perform $\delta ^{15}$N on non-acidified samples due to measurable changes in N isotope ratios due to acidification (Carabel et al. 2006). Brodie et al. (2011) examined both rinsing and fuming of aquatic and terrestrial organic samples with HCl and H3PO4. The authors concluded that the HCl rinse technique directly in combustion capsules provided the most consistent results for bulk POC and PN abundance. The fuming method with HCl did not provide as consistent or accurate results. In a study of carbonate removal in coastal sediments, Komada et al. (2008) determined that fuming sediments with HCl over 24 hours provided accurate organic C, $\delta ^{13}$C, and Δ14C compared to the addition of 1 N aqueous HCl to the samples. Hernes et al. (2001) evaluated the performance of acid fuming vs. acidifying with a solution on carbonate-rich sediment samples (>10% inorganic C) collected in the Eastern Equatorial Pacific and found that fuming was not effective at removing all the inorganic C. For radiocarbon dating purposes, Bao et al. (2019) recommended fuming HCl versus adding HCl solution for removal of inorganic carbon in low carbonate sediment samples. Note that Bao et al. (2019) inserted NaOH pellets into the desiccator following acidification to remove remaining acid and chloride ions to protect their ramped pyrolysis oxidation equipment from damage. It may be worth exploring whether this procedure could reduce wear and tear on elemental analyzer instruments. 
 
 Further evaluation of the effectiveness of fuming vs. acid addition for inorganic carbon removal, specifically for POC measurement, is necessary. However, from the evidence, it appears that the inorganic C content of the samples could be a guiding factor in the choice of acidification method, with fuming being appropriate for low inorganic content. At the same time, acid addition might be better for samples with high inorganic C. In addition, additional recommendations for the procedural step of removing inorganic C are proposed based on our collective experience and the studies available. Avoid plastic surfaces or containers when acidifying samples. For example, place samples in a large glass desiccator to either expose them to fumes or after adding dilute acid. Expose the samples to fumes for 24 hours; samples acidified by liquid acid addition can be removed after several hours to guarantee—in both cases—that all the inorganic C is removed. Either method can be applied before the samples are dried, after thawing, or after the samples are oven dried. However, it seems more likely that a moist filter would be more susceptible to losses of hydrolyzed compounds than a dry filter. Recommended acids are HCl or H3PO4, and H2SO4 should be avoided. It is better to place or return samples to the freeze-drier or drying oven (see Section 5.2) for 24 hours after the acidification is complete to volatilize excess acid. Otherwise, it might corrode the metallic sample encapsulation material (see Section 5.4) used for elemental analysis and cause material loss.
 
@@ -321,7 +321,7 @@ Filter samples are encapsulated in ‘ultra-clean’ circular or rectangular tin
 
 Packaging of calibration and reference materials is performed at the weighing workstation because the containers are tared to obtain the weight of the analytical material encapsulated. Recommendations for best practices in weighing for analytical applications are detailed in Section 6.6. Filter samples are wrapped with flat foil and must be compressed with a pellet press (Figure 12) to ensure these are small enough to fit amply through the analyzer sample drop borehole without getting caught. If insufficient pressure is applied to form the pellets, the samples will expand in the carousel during a run and fail to drop through the borehole into the combustion chamber, with the potential risk of sample loss if multiple expanded samples become caught inside the sample delivery mechanism. However, the application of excessive force runs the risk of rupturing the pellet, resulting in the loss of sample material. Operators must familiarize themselves with the apparatus used for sample pelletization and develop a sense of the appropriate force to apply when processing filter samples for optimal results. New operators should process several dummy samples before they move on to processing actual field samples. Experimenting with shape can be beneficial depending on the geometry of the sampling carousel (i.e., pellets, spheres, or oblong). Process blanks must also be measured for the boat and flat foil encapsulating materials pelletized or folded in the same manner as standards and samples. The average apparent mass of C and N quantified for each blank type must be subtracted from each sample or standard measurement to account for errors introduced by the containers (see Section 6.2.3 and 6.3.2).
 
-	![Figure 12](Images/Fig-12.png)
+![Figure 12](Images/Fig-12.png)
 	
 Figure 12. Manual, lever-operated pellet press (left; Parr Instruments Co.) and (right) manual press for 7 mm pellet diameter (Elementar Americas, Inc.).
 
@@ -394,21 +394,21 @@ Maintaining and monitoring long-term records to evaluate instrument response ove
 
 Most EAs for CHN/S applications provide analytical results for each element measured in mass fraction as percentages. Thus, the mass of C, N, or any other element measured can be calculated by multiplying the sample mass analyzed by the reported mass fraction in the analytical result. For POC and PN analyses, the mass of the sample is not usually a known quantity; instead, a placeholder value must be entered (e.g., 1 mg) so that the instrument can provide a mass percentage value as the output. Simply stated, the total mass of C or N by weight in the sample filter, uncorrected for any packaging or filtrate blanks is given by
 
-$$M^{X*}_{T} = 1 mg x \frac{w_x\%}{100}$$	(5)
+$$M^{X*}_{T} = 1 mg \times \frac{w_x \%}{100}$$	(5)
 
 where 1 mg is the placeholder value entered into the instrument for the sample weight and $w_x\%$ is the mass fraction by weight as a percent of element X calculated by the instrument. $w_x\%$ is not the actual percentage of X in the sample but a computed value by the instrument based on the placeholder weight and the amount of C measured in the sample. This approach relies on instrument calibration as implemented by the manufacturer. The analyst and data end-user must understand what those computations entail and how they might affect the magnitude of the measured quantity.
 
 However, if the goal is to understand the uncertainties, propagate them, and derive error estimates, the approach should be to construct a calibration curve and carry out all computations separately from the instrument built-in software (e.g., Figure 13). EAs can be set up to report the instrument signal, peak heights, or area counts corresponding to each element measured for all types of runs (e.g., calibration, sample, blanks). The instrument signal, S, is the voltage, or magnitude in arbitrary engineering units, that is linearly proportional to the mass of the element X measured, such that MX = f(SX). This approach allows the user to control all aspects of the instrument calibration, such as the screening of anomalous or suspect calibration runs. For example, in Figure 13a, outlier sulfanilamide runs are identified and excluded from the regression for the calibration curve. The approach applied for outlier detection is the modified z-score method (6) based on the median absolute deviation (MAD; Iglewicz and Hoaglin 1993); modified z-scores with absolute values > 3.5 for the instrumental signal to C ratio are deemed outliers and subject to elimination (Figure 13a). For a normally distributed set of observations, x, MAD for the ith observation is given by
 
-$$MAD = median($|x_i - \hat{x}|$)$$	(6)
+$$MAD = median(|x_i - \hat{x}|)$$	(6)
 
 where $\hat{x}$ is the median of x. The modified z-score is a robust measure because it relies on the median and is less influenced by outliers when compared to methods that rely on the mean (Leys et al., 2013). The critical values xc-, xc+ above and below the median for rejection of outlier calibration runs shown in Figure 6a are given by
 
-$$x_{c-,c+} = \hat{x} \pm (\fra{(3.5 x MAD}{0.6745})$$	(7)
+$$x_{c-,c+} = \hat{x} \pm (\frac{3.5 x MAD}{0.6745})$$	(7)
 
 where the factor 0.6745 is the standardized distance away from the mean for the 0.75 quartile (Appendix A.1.11).
 
-	![Figure 13](Images/Fig-13.png)
+![Figure 13](Images/Fig-13.png)
 
 Figure 13. (a, b) Ratios of instrumental carbon and nitrogen signals $S_C$, $S_N$ to weights (mg) for each element from sulfanilamide (C6H8N2O2S) calibration standards during an analytical run for POC filter samples. Shaded range is the acceptance criteria range for calibration runs defined by the modified z-score method (7, 8), for all sulfanilamide runs. Values outside that range are considered outliers and excluded from calibration. (c, d) Calibration regression curve (linear least-squares fit) of element weight vs. S using data in (a, b). Red symbols (excluded) depict the values that failed quality criterion above and were excluded from regression.
 
@@ -416,37 +416,37 @@ Figure 13. (a, b) Ratios of instrumental carbon and nitrogen signals $S_C$, $S_N
 
 For calibration analysis measurements—independent of the approach—using either the instrument software or an external calibration curve, each run (i.e., elemental analysis measurement) of the primary calibration standard must be blank corrected for the specific type of encapsulating packaging used, such that
 
-$$S^{std}_{C_i} = S^{std*}_{C_i} - \hat{S}^{Pk_a}_{C}$$	(8)
+$$S^{std}_{C_i} = S^{std\*}_{C_i} - \hat{S}^{Pk_a}_C$$	(8)
 
-Where $S^{std}_{C_i}$ is the packaging-corrected C (or N) signal for the $i^{th}$ standard calibration run, $S^{std*}_{C_i}$ is the corresponding uncorrected (superscript $*$) signal, and $\hat{S}^{Pk_a}_{C}$ is the estimate of the blank signal for packaging (superscript Pk) type a. The estimate of $\hat{S}^{Pk_a}_{C}$ can be derived in multiple ways and does not necessarily need to be the arithmetic mean of all blank runs for a specific type of sample packaging. Users can opt to derive a blank signal estimate as the median or a run average that accounts for instrumental drift (see Section 6.2.4), depending on how the blank signal data is distributed during a sample sequence. The correction in (8) should be applied to all runs corresponding to each $a_1$...$a_n$ packaging type.
+Where $S^{std}_{C_i}$ is the packaging-corrected C (or N) signal for the $i^{th}$ standard calibration run, $S^{std*}_{C_i}$ is the corresponding uncorrected (superscript $*$) signal, and $\hat{S}^{Pk_a}_C$ is the estimate of the blank signal for packaging (superscript Pk) type a. The estimate of $\hat{S}^{Pk_a}_C$ can be derived in multiple ways and does not necessarily need to be the arithmetic mean of all blank runs for a specific type of sample packaging. Users can opt to derive a blank signal estimate as the median or a run average that accounts for instrumental drift (see Section 6.2.4), depending on how the blank signal data is distributed during a sample sequence. The correction in (8) should be applied to all runs corresponding to each $a_1$...$a_n$ packaging type.
 
 The correction of filter samples requires additional considerations beyond packaging effects. Sample measurements include a signal for analytical filter and filtrate blanks, for which the samples need to be corrected. Two general approaches for filtrate blank correction are examined in Section 4, and recommendations for developing an analytical filter blank correction are discussed in Section 6.2.2.
 
 Following from (2), the total apparent mass of C measured (i.e., uncorrected for any blank signal) on a filter sample can be described by
 
-$$M^{C*}_{T} = M^C_{POC} + M^C_{ads} + M^C_f + M^C_{Pk_f}$$	(9)
+$$M^{C\*}_T = M^C_{POC} + M^C_{ads} + M^C_f + M^C_{Pk_f}$$	(9)
 
 where the additional terms $M^C_f$ and $M^C_{Pk_f}$ are the apparent C mass from the analytical filter (subscript $‘f’$) and the sample filter packaging (subscript $‘Pk_f’$ ) blanks, respectively. If the filtrate blank was measured directly on blank filters (see Section 4.2), it follows from (9) that the measurement on the filters carries the packaging and analytical blank signals, such that
 
-$$M^{C*}_{ads} = M^C_{ads} + M^C_f + M^C_{Pk_f}$$	(10)
+$$M^{C\*}_{ads} = M^C_{ads} + M^C_f + M^C_{Pk_f}$$	(10)
 
 and equivalently for the analytical filter blank
 
-$$M^{C*}_{f} = M^C_f + M^C_{Pk_f}$$	(11) 
+$$M^{C\*}_f = M^C_f + M^C_{Pk_f}$$	(11) 
 
-where $M^{C*}_{ads}$ and $M^{C*}_{f}$ are the uncorrected apparent C mass measured on the filtrate and analytical filter blanks, respectively. 
+where $M^{C\*}_{ads}$ and $M^{C\*}_{f}$ are the uncorrected apparent C mass measured on the filtrate and analytical filter blanks, respectively. 
 
 The filtrate blank filter in (10) also carries the putative signal of the analytical blank filter because the only difference between them is that the former was exposed to the filtrate. If the analytical blank is generated in the field and put through the entire sample processing path as recommended in Section 6.2.3, that signal is also carried in the filtrate blank. From here it follows that (10) can be re-written as
 
-$$M^{C*}_{T} = M^C_{POC} + M^{C*}_{ads}$$	(12)
+$$M^{C\*}_T = M^C_{POC} + M^{C\*}_{ads}$$	(12)
 
 so that $M^C_{POC}$ becomes
 
-$$M^{C}_{POC} = M^{C*}_{T} - M^{C*}_{ads}$$	(13)
+$$M^C_{POC} = M^{C\*}_T - M^{C*}_{ads}$$	(13)
 
-If the filtrate blank correction is evaluated using a regression approach (see Section 4.1), the analytical filter blank signal should be explicitly incorporated in the calculation of $M^{C}_{POC}$. The measured values of $M^C_T$ on sample filters that go into setting up the regressions should be corrected for $M^C_f$ and $M^C_{Pk_f}$, which as (9, 12) imply, is given by
+If the filtrate blank correction is evaluated using a regression approach (see Section 4.1), the analytical filter blank signal should be explicitly incorporated in the calculation of $M^C_{POC}$. The measured values of $M^C_T$ on sample filters that go into setting up the regressions should be corrected for $M^C_f$ and $M^C_{Pk_f}$, which as (9, 12) imply, is given by
 
-$$M^{C}_{T} = M^{C*}_{T} - M^{C*}_{f}$$	(14)
+$$M^C_T = M^{C\*}_T - M^{C\*}_f$$	(14)
 
 Then, $M^C_{POC}$ is normalized by the volume filtered V to obtain the concentration of POC
 
@@ -470,25 +470,25 @@ $$q = \frac{a x ... x c}{d x ... x f}$$	(17)
 
 the fractional or relative uncertainty of $q$, provided that the uncertainties in $a,…,f$ are independent and random, is given by the sum in quadrature of their respective fractional uncertainties
 
-$$\frac{u_q}{|q|} = \sqrt{(\frac{u_a}{a})^2 + ... + (\frac{u_c}{c})^2} + .... + (\frac{u_d}{d})^2 + ... + (\frac{u_f}{f})^2}}$$	(18)
+$$\frac{u_q}{|q|} = \sqrt{(\frac{u_a}{a})^2 + ... + (\frac{u_c}{c})^2 + .... + (\frac{u_d}{d})^2 + ... + (\frac{u_f}{f})^2}$$	(18)
 
-Given that in (9), the mass of C as POC, $M^C_{POC}$, is derived from the total uncorrected mass of C, $M^{C*}_T$, measured on sample filters, by subtracting the blank signals described in 6.3.2. from (16) it follows that the propagated uncertainty for $M^C_{POC}$ is given by
+Given that in (9), the mass of C as POC, $M^C_{POC}$, is derived from the total uncorrected mass of C, $M^{C\*}_T$, measured on sample filters, by subtracting the blank signals described in 6.3.2. from (16) it follows that the propagated uncertainty for $M^C_{POC}$ is given by
 
-$$u_{M_{POC}}^{C} = \sqrt{{u_{{M_{Pkf}}^C}}^2 + {u_{{M_{f}}^C}}^2 + {u_{{M_{ads}}^C}}^2 + {u_{{M_{T}}^{C*}}}^2}$$	(17)
+$$u_{M_{POC}^C} = \sqrt{u^2_{M^C_{Pk_f}} + u^2_{M^C_{f}} + u^2_{M^C_{ads}} + u^2_{M^{C\*}_{T}}}$$	(17)
 
 The concentration of POC (or PN) is a quotient (15), and thus its relative uncertainty would be given by
 
-$$\frac{u_{POC}}{{C_{POC}}^C} = \sqrt{(\frac{u_{M_T}^C}{{{M_T}^C}})^2 + (\frac{u_V}{V})^2}$$	(18)
+$$\frac{u_{POC}}{C_^C_{POC}} = \sqrt{(\frac{u_{M^C_T}}{M^C_T})^2 + (\frac{u_V}{V})^2}$$	(18)
 
 The standard deviation from repeated observations during each analytical run can provide a first approximation of the uncertainties of analytical blanks and sample replicates (17). The uncertainty of the filtration volume V can be estimated from the measurement precision of the instrument used, such as a measuring cylinder. If multiple volume measurements are added up for a given sample replicate, the primary uncertainty must be multiplied by the number of measurements carried out. A constant filtration volume uncertainty of 5 mL was applied to all observations for the example presented here.
 
 Fractional uncertainties for all POC and PN values in a preliminary version of the GO-SHIP P06 Leg 2 2017 dataset had medians of 12.1–12.3% and varied between 1.7–142% and 1.1–213%, respectively (Figure 14). The uncertainties for both elements appear to be bi-modal, and thus the medians might not be the best representation of their distributions. For most of the observations in the dataset, the uncertainty of the total mass of C or N (superscript X) in sample filters, ${M_T}^{X*}$, were the largest contributors to overall uncertainty (Figure 15). The filtrate and sample encapsulation blanks were the next most important and, on average, explained 16–17% and 2–3% of the uncertainty budgets, respectively. Filtration volume accounted for 3% and 2% of the uncertainty in POC and PN. However, as POM concentrations increased closer to the Peru-Chile upwelling region (right-hand side of plots) and the uncertainty in ${M_T}^{X*}$ decreased, filtration volume became the most important component of the overall uncertainty for some observations (Figure 15b, d). The measurements used in this exercise were collected mainly in the hyper-oligotrophic waters of the South Pacific Gyre and represent the lower end of method sensitivity. In contrast, those at the eastern end of the transects are more typical of coastal and hypertrophic conditions. This observation highlights the need to determine filtration volume during sample processing with the same care and attention toward achieving accuracy as with any other variable during subsequent analytical steps in the laboratory.
 
-	![Figure 14](Images/Fig-14.png)
+![Figure 14](Images/Fig-14.png)
 
 Figure 14. Histograms of fractional uncertainty as percentages for (a) POC and (b) PN for samples collected during the GO-SHIP P06 Leg 2 2017 campaign. Vertical red lines depict the median fractional uncertainties in each case.
 
-	![Figure 15](Images/Fig-15.png)
+![Figure M15](Images/Fig-15.png)
 
 Figure 15. (a, c) Concentration of POC, PN during the GO-SHIP P06 Leg 2 2017 sorted in ascending order by station longitude along sampling transect in the South Pacific Ocean across the Gyre to the Peru-Chile upwelling region. Shaded regions depict the best estimate of concentration ± the propagated uncertainty. (b, d) Bar plots depict the contribution to measurement uncertainty (i.e., uncertainty budget) for each of the values in panels a and c by the variables in equations 17, 18. The respective mean uncertainty budgets for POC and PN are depicted in the pie charts to the right on panels b and d.
 
@@ -500,17 +500,17 @@ $$B_L = \overline{x}_B \pm 1.645\sigma_B$$	(19)
 
 where $\overline{x}_B$ and $\sigma_B$ are the mean and standard deviations in element mass or instrumental signal units of the blank replicates, and 1.645 is the critical z value for $\alpha$ = 0.05 (i.e., LOB is the 95th percentile of observed blanks). The assumption is that the remaining 5% of the blank distribution could potentially be in the range of very low concentration samples. In the case of analysis of filters for POC and PN, the LOB should include the aggregate blank signals in (9). The distribution of the C and N blanks, and the uncorrected sample measurements, for the GO-SHIP P06 Leg 2 2017 dataset are presented in Figure 16. Applying (20) to those data, the resulting LOB for C and N in POM are 22 and 4.6 µg, respectively. 
 
-	![Figure 16](Images/Fig-16.png)
+![Figure 16](Images/Fig-16.png)
 
 Figure 16. Histograms of the apparent (a) C and (b) N mass, $M^C$ and $M^N$, for the measured blank signals, and uncorrected sample filters for samples collected during the GO-SHIP P06 Leg 2 2017 campaign. $M_{ads}$ is the filtrate blank, corrected for the average field filter blank, $M_f$. $M_{Pk_{Cal}}$ and $M_{Pk_f}$ are the encapsulating material blanks for calibration standards and sample filters, respectively (see Section 5.4). $M_T$ is the total mass of either element on sample filters, uncorrected for above blanks. The ranges plotted above each histogram depict the mean $\pm$ one standard deviation for each variable. The hashed line for ${M^N}_{ads}$ signifies that the lower bound is negative. LOB and LOD are the limits of blank and limits of detection, respectively.
 
 LOD is the lowest amount of analyte that can be distinguished from the LOB and where detection is practical. A common approach to estimating LOD is to make several blank replicate measurements and define LOD as the mean of those measurements plus a number of standard deviations. That number varies among analysts and applications, with some analysts using 2, 4, or 10 $\sigma$. An alternative method is to measure samples with “small but known” concentrations of the analyte and thus effectively compare the response of a low concentration sample vs. that of the blank. Based on the protocols of Clinical and Laboratory Standards Institute (2004), Armbruster and Pry (2008) propose the LOD as 
 
-$$D_L = B_L = 1.645\sigma_{C -> 0}$$	(20)
+$$D_L = B_L + 1.645\sigma_{C -> 0}$$	(20)
 
 where $\sigma_{C -> 0}$ is the standard deviation of a small but known concentration sample. As discussed in Section 6.7, no reference material that mimics the biological and mineral matrix of marine POM exists that would allow the preparation of such a sample in the strictest sense. Ideally, test samples should also be measured on the same type of filter used for field sample collection, such that all the effects of sample processing are evaluated when determining the LOD. Preparation of solutions of known concentration is a routine analytical practice for analytes in a solution matrix. In the case of particulate samples and other solids, analysis of known quantities of primary reagents or reference materials is used as validation. However, given that the filtrate blank typically contains a measurable amount of the target analytes, considerable overlap would be expected between test samples prepared using known amounts of bulk reference materials or reagents and, for example, the sum of all the blank signals in Figure 16. To provide a practical solution to POM analysts until a suitable reference material is available that allows the use of the approach in (21), a preliminary (superscript ') LOD is estimated here as 
 
-$${D^'}_L = B_L = 2\sigma_{B}$$	(21)
+$${D'}_L = B_L 0 + 2\sigma_{B}$$	(21)
 
 where $\sigma_{B}$ is the standard deviation of the sum of the blank signals in (9), which are the filtrate, the dry filter, and the sample encapsulation blanks[^4]. Using that approach, the preliminary LOD for POC and PN in the test dataset in Figure 16 are 31 and 7 $\mu$g, respectively.
 
@@ -536,60 +536,60 @@ Funding agencies have created data management structures to ensure data permanen
 
 Data submitters should meet the metadata guidelines of their corresponding data repositories and include any other relevant data. Some individual large-scale projects might enforce additional metadata requirements. Basic geolocation coordinates, sampling depth, and times of sample collection in GMT format are essential parameters for data to be usable in satellite calibration and validation activities. For example, submitters to the NASA SeaBASS repository must provide a metadata header for each data file submitted to its database:
 
-`/begin_header`
-`/identifier_product_doi=10.5067/SeaBASS/SOCCOM/DATA001`
-`/received=20190701`
-`/investigators=Emmanuel_Boss,Lynne_Talley`
-`/affiliations=University_of_Maine,Scripps_Institution_of_Oceanography`
-`!/affiliations=UMaine,Scripps`
-`/contact=emmanuel.boss@maine.edu`
-`/experiment=SOCCOM`
-`/cruise=ACE_2017`
-`!/cruise=ACE`
-`/station=NA`
-`/data_file_name=SOCCOM_ACE_POC.sb`
-`/documents=SOCCOM_ACE_POC_doc.pdf`
-`/calibration_files=SOCCOM_ACE_POC_doc.pdf`
-`/data_type=bottle`
-`/data_status=preliminary`
-`/start_date=20161228`
-`/end_date=20170314`
-`/start_time=06:55:00[GMT]`
-`/end_time=07:18:00[GMT]`
-`/north_latitude=-43.9953[DEG]`
-`/south_latitude=-71.6929[DEG]`
-`/east_longitude=70.000[DEG]`
-`/west_longitude=57.502[DEG]`
-`/water_depth=NA`
-`!`
-`! COMMENTS`
-`! Reference_file = Project12_CTD_POCconc.xlsx`
-`! CCHDO_EXPO = RUB320161220`
-`! Quality codes (following CCHDO guidelines except flag 0):`
-`!     0. No quality check performed on measurement.`
-`!     1. Sample for this measurement was drawn from water bottle but analysis not received.`
-`!     2. Acceptable measurement.`
-`!     3. Questionable measurement.`
-`!     4. Bad measurement.`
-`!     5. Not reported.`
-`!     6. Mean of replicate measurements (Number of replicates is specified in column bincount).`
-`!     9. Sample not drawn for this measurement from this bottle.`
-`!`
-`! The POC and PON samples are acidified to get rid of inorganic carbon and nitrogen.`
-`! A DOC/DON adsorption blank to account for contamination and dissolved organic carbon (DOC)`
-`! and nitrogen (DON), was taken during sampling by stacking two filters in the filtration funnels`
-`! and filtering the sample as normal. The upper filter will be the total (dissolved and particulate)`
-`! organic carbon and nitrogen sample and the bottom filter will be the DOC/DON adsorption blank.`
-`! The organic carbon and nitrogen from the DOC/DON adsorption blank was removed from the concentration of the total filters to retrieve POC and PON.`
-`!`
-`! Detection Limit:`
-`!     [C] = 100 micrograms`
-`!`
-`/missing=-9999`
-`/delimiter=comma`
-`/fields=sample,station,bottle,depth,year,month,day,sdy,time,lon,lat,POC,volfilt,quality`
-`/units=none,none,none,m,yyyy,mo,dd,ddd,hh:mm:ss,degrees,degrees,mg/m^3,l,none`
-`/end_header`
+`/begin_header`  
+`/identifier_product_doi=10.5067/SeaBASS/SOCCOM/DATA001`  
+`/received=20190701`  
+`/investigators=Emmanuel_Boss,Lynne_Talley`  
+`/affiliations=University_of_Maine,Scripps_Institution_of_Oceanography`  
+`!/affiliations=UMaine,Scripps`  
+`/contact=emmanuel.boss@maine.edu`  
+`/experiment=SOCCOM`  
+`/cruise=ACE_2017`  
+`!/cruise=ACE`  
+`/station=NA`  
+`/data_file_name=SOCCOM_ACE_POC.sb`  
+`/documents=SOCCOM_ACE_POC_doc.pdf`  
+`/calibration_files=SOCCOM_ACE_POC_doc.pdf`  
+`/data_type=bottle`  
+`/data_status=preliminary`  
+`/start_date=20161228`  
+`/end_date=20170314`  
+`/start_time=06:55:00[GMT]`  
+`/end_time=07:18:00[GMT]`  
+`/north_latitude=-43.9953[DEG]`  
+`/south_latitude=-71.6929[DEG]`  
+`/east_longitude=70.000[DEG]`  
+`/west_longitude=57.502[DEG]`  
+`/water_depth=NA`  
+`!`  
+`! COMMENTS`  
+`! Reference_file = Project12_CTD_POCconc.xlsx`  
+`! CCHDO_EXPO = RUB320161220`  
+`! Quality codes (following CCHDO guidelines except flag 0):`  
+`!     0. No quality check performed on measurement.`  
+`!     1. Sample for this measurement was drawn from water bottle but analysis not received.`  
+`!     2. Acceptable measurement.`  
+`!     3. Questionable measurement.`  
+`!     4. Bad measurement.`   
+`!     5. Not reported.`  
+`!     6. Mean of replicate measurements (Number of replicates is specified in column bincount).`  
+`!     9. Sample not drawn for this measurement from this bottle.`  
+`!`  
+`! The POC and PON samples are acidified to get rid of inorganic carbon and nitrogen.`  
+`! A DOC/DON adsorption blank to account for contamination and dissolved organic carbon (DOC)`  
+`! and nitrogen (DON), was taken during sampling by stacking two filters in the filtration funnels`  
+`! and filtering the sample as normal. The upper filter will be the total (dissolved and particulate)`  
+`! organic carbon and nitrogen sample and the bottom filter will be the DOC/DON adsorption blank.`  
+`! The organic carbon and nitrogen from the DOC/DON adsorption blank was removed from the concentration of the total filters to retrieve POC and PON.`  
+`!`  
+`! Detection Limit:`  
+`!     [C] = 100 micrograms`  
+`!`  
+`/missing=-9999`  
+`/delimiter=comma`  
+`/fields=sample,station,bottle,depth,year,month,day,sdy,time,lon,lat,POC,volfilt,quality`  
+`/units=none,none,none,m,yyyy,mo,dd,ddd,hh:mm:ss,degrees,degrees,mg/m^3,l,none`  
+`/end_header`  
 
 Any blank correction applied to the data should be reported, particularly those that relate to filtrate blank (see Section 4), as well as any validation performed during analyses against a standard reference material or calibration reagent.
 
@@ -604,104 +604,104 @@ The National Research Council review issued a set of recommendations for RMs for
 
 # 7. References
 
-Altabet, M A, Bishop, J.K.B., & McCarthy, J.J. (1992). Differences in particulate nitrogen concentration and isotopic composition for samples collected by bottles and large-volume pumps in Gulf Stream warm-core rings and the Sargasso Sea. Deep Sea Research Part A. Oceanographic Research Papers, 39, S405–S417. https://doi.org/http://dx.doi.org/10.1016/S0198-0149(11)80022-1
-Altabet, Mark A. (1990). Organic C, N, and stable isotopic composition of particulate matter collected on glass--fiber and aluminum oxide filters. Limnology and Oceanography, 35(4), 902–909. https://doi.org/10.4319/lo.1990.35.4.0902
-Analytical Methods Committee. (2006). Evaluation of analytical instrumentation. Part XIX CHNS elemental analysers. Accreditation and Quality Assurance, 11(11), 569–576. https://doi.org/10.1007/s00769-006-0185-x
-Arrigo, K.R., Robinson, D.H., Worthen, D.L., Dunbar, R. B., DiTullio, G.R., VanWoert, M., & Lizotte, M.P. (1999). Phytoplankton community structure and the drawdown of nutrients and CO2 in the Southern Ocean. Science, 283(5400), 365–367. https://doi.org/10.1126/science.283.5400.365
-Bao, R., McNichol, A.P., Hemingway, J.D., Lardie Gaylord, M.C., & Eglinton, T.I. (2019). Influence of Different Acid Treatments on the Radiocarbon Content Spectrum of Sedimentary Organic Matter Determined by RPO/Accelerator Mass Spectrometry. Radiocarbon. https://doi.org/10.1017/rdc.2018.125
-Bare, S.R., Lilly, M., Chermak, J., Eggert, R., Halperin, W., Hannahs, S., Hayes, S., Hendrich, M., Hurd, A., Osofsky, M., & Tway, C. (2016). The U.S. Research Community’s Liquid Helium Crisis. https://doi.org/10.7936/K7571B6D
-Bauer, J.E., Druffel, E.R.M., Wolgast, D.M., & Griffin, S. (2002). Temporal and regional variability in sources and cycling of DOC and POC in the northwest Atlantic continental shelf and slope. Deep Sea Research Part II: Topical Studies in Oceanography, 49(20), 4387–4419. https://doi.org/https://doi.org/10.1016/S0967-0645(02)00123-6
-Benner, R. (2002). Chemical composition and reactivity. In D. Hansell & C. Carlson (Eds.), Biogeochemistry of Marine Dissolved Organic Matter (pp. 59–85). Academic Press.
-Bidigare, R.R., Heukelem, L. Van, Trees, C.C., & Perl, J. (2004). HPLC Phytoplankton Pigments: Sampling, Laboratory Methods, and Quality Assurance Procedures. In J. L. Mueller, G.S. Fargion, & C.R. McClain (Eds.), Ocean Optics Protocols For Satellite Ocean Color Sensor Validation: Vol. Revision 5. National Aeronautics and Space Administration.
-Bishop, J. K.B., & Edmond, J. M. (1976). A new large volume filtration system for the sampling of oceanic particulate matter. Journal of Marine Research, 34, 181–198.
-Bishop, J. K.B. (2011). Getting Good Weight. Marine Particles: Analysis and Characterization, 229–234. https://doi.org/10.1029/gm063p0229
-Bishop, J.K.B., Lam, P.J., & Wood, T.J. (2012). Getting good particles: Accurate sampling of particles by large volume in-situ filtration. Limnology and Oceanography: Methods, 10(9), 681–710. https://doi.org/10.4319/lom.2012.10.681
-Bishop, J.K.B., Schupack, D., Sherrell, R.M., & Conte, M. (1985). A Multiple-Unit Large-Volume In Situ Filtration System for Sampling Oceanic Particulate Matter in Mesoscale Environments. In Mapping Strategies in Chemical Oceanography (Vol. 209, pp. 155–175). American Chemical Society. https://doi.org/doi:10.1021/ba-1985-0209.ch009
-Bopp, L., Monfray, P., Aumont, O., Dufresne, J.-L., Le Treut, H., Madec, G., Terray, L., & Orr, J. C. (2001). Potential impact of climate change on marine export production. Global Biogeochemical Cycles, 15(1), 81–99. https://doi.org/10.1029/1999GB001256
-Boss, E., Haëntjens, N., Ackleson, S., Balch, B., Chase, A., Dall’Olmo, G., Freeman, S., Liu, Y., Loftin, J., Neary, W., Nelson, N., Novak, M., Slade, W., Proctor, C., Tortell, P., & Westberry, T. (2019). Inherent Optical Property Measurements and Protocols: Best practices for the collection and processing of ship-based underway flow-through optical data. In A. R. Neeley & A. Mannino (Eds.), IOCCG Ocean Optics and Biogeochemistry Protocols for Satellite Ocean Colour Sensor Validation (pp. 1–23). IOCCG. https://doi.org/http://dx.doi.org/10.25607/OBP-664
-Boss, Emmanuel, Slade, W. H., Behrenfeld, M., & Dall’Olmo, G. (2009). Acceptance angle effects on the beam attenuation in the ocean. Optics Express, 17(3), 1535–1550. https://doi.org/10.1364/OE.17.001535
-Brodie, C. R., Leng, M. J., Casford, J. S. L., Kendrick, C. P., Lloyd, J. M., Yongqiang, Z., & Bird, M. I. (2011). Evidence for bias in C and N concentrations and δ13C composition of terrestrial and aquatic organic materials due to pre-analysis acid preparation methods. Chemical Geology. https://doi.org/10.1016/j.chemgeo.2011.01.007
-Buesseler, K., Ball, L., Andrews, J., Benitez-Nelson, C., Belastock, R., Chai, F., & Chao, Y. (1998). Upper ocean export of particulate organic carbon in the Arabian Sea derived from thorium-234. Deep Sea Research Part II: Topical Studies in Oceanography, 45(10), 2461–2487. https://doi.org/https://doi.org/10.1016/S0967-0645(98)80022-2
-Byers, K. B. (1998). Risks Associated with Liquid Nitrogen Cryogenic Storage Systems. Journal of the American Biological Safety Association, 3(4), 143–146. https://doi.org/10.1177/109135059800300406
-Carabel, S., Godínez-Domínguez, E., Verísimo, P., Fernández, L., & Freire, J. (2006). An assessment of sample processing methods for stable isotope analyses of marine food webs. Journal of Experimental Marine Biology and Ecology, 336(2), 254–261. https://doi.org/10.1016/j.jembe.2006.06.001
-Cetinić, I., Perry, M. J., Briggs, N. T., Kallin, E., D’Asaro, E. A., & Lee, C. M. (2012). Particulate organic carbon and inherent optical properties during 2008 North Atlantic bloom experiment. Journal of Geophysical Research: Oceans, 117(6). https://doi.org/10.1029/2011JC007771
-Cetinić, I., Poulton, N., & Slade, W. H. (2016). Characterizing the phytoplankton soup: pump and plumbing effects on the particle assemblage in underway optical seawater systems. Optics Express, 24(18), 20703. https://doi.org/10.1364/oe.24.020703
-Chandler, C., Groman, R., Allison, M., Wiebe, P., Glover, D., & Gegg, S. (2012). Effective management of ocean biogeochemistry and ecological data: The BCO-DMO story. EGU General Assembly Conference Abstracts, 14, 1258. http://adsabs.harvard.edu/abs/2012EGUGA..14.1258C
-Collos, Y., Jauzein, C., & Hatey, E. (2014). Particulate carbon and nitrogen determinations in tracer studies: The neglected variables. Appl Radiat Isot, 94, 14–22. https://doi.org/10.1016/j.apradiso.2014.06.015
-Cutter, G., Casciotti, K., Croot, P., Geibert, W., Heimbürger, L.-E., Lohan, M., Planquette, H., & van de Flierdt, T. (2017). Sampling and Sample-handling Protocols for GEOTRACES Cruises. http://www.geotraces.org/images/Cookbook.pdf
-Dortch, Q., Clayton, J. R., Thoresen, S. S., & Ahmed, S. I. (1984). Species differences in accumulation of nitrogen pools in phytoplankton. Marine Biology, 81(3), 237–250. https://doi.org/10.1007/BF00393218
-Ellison, S. L. R., & Williams, A. (2012). EURACHEM/CITAC Guide CG 4: Quantifying uncertainty in analytical measurement (S. L. R. Ellison & A. Williams (eds.); Third edit). https://doi.org/0 948926 15 5
-Fadeeva, V. P., Tikhova, V. D., & Nikulicheva, O. N. (2008). Elemental analysis of organic compounds with the use of automated CHNS analyzers. Journal of Analytical Chemistry, 63(11), 1094–1106. https://doi.org/10.1134/s1061934808110142
-Fuhrman, J., & Bell, T. (1985). Biological considerations in the measurement of dissolved free amino acids in seawater and implications for chemical and microbiological studies. Marine Ecology Progress Series. https://doi.org/10.3354/meps025013
-Galloway, A. W. E., & Winder, M. (2015). Partitioning the relative importance of phylogeny and environmental conditions on phytoplankton fatty acids. PLoS ONE, 10(6), 1–23. https://doi.org/10.1371/journal.pone.0130053
-Gardner, W. D., Mishonov, A. V., & Richardson, M. J. (2006). Global POC concentrations from in-situ and satellite data. Deep-Sea Research Part II: Topical Studies in Oceanography, 53(5–7), 718–740. https://doi.org/10.1016/j.dsr2.2006.01.029
-Gardner, Wilford D., Richardson, M. J., Carlson, C. A., Hansell, D., & Mishonov, A. V. (2003). Determining true particulate organic carbon: Bottles, pumps and methodologies. Deep Sea Research Part II: Topical Studies in Oceanography, 50(3–4), 655–674. https://doi.org/10.1016/S0967-0645(02)00589-1
-Gardner, Wilford D., Walsh, I. D., & Richardson, M. J. (1993). Biophysical forcing of particle production and distribution during a spring bloom in the North Atlantic. Deep-Sea Research Part II, 40(1–2), 171–195. https://doi.org/10.1016/0967-0645(93)90012-C
-Gardner, Wilford D. (1977). Incomplete extraction of rapidly settling particles from water samplers. Limnology and Oceanography, 22(4), 764–768. https://doi.org/10.4319/lo.1977.22.4.0764
-Gardner, W.D., Biscaye, P. E., Zaneveld, J. R.V, & Richardson, M. J. (1985). Calibration and comparison of the LDGO nephelometer and the OSU transmissometer on the Nova Scotian rise. Marine Geology, 66(1), 323–344. https://doi.org/https://doi.org/10.1016/0025-3227(85)90037-4
-GEOTRACES. (2010). GEOTRACES: An International study of the marine biogeochemical cycles of trace elements and their isotopes. http://www.geotraces.org/
-Goñi, M.A., Corvi, E. R., Welch, K. A., Buktenica, M., Lebon, K., Alleau, Y., & Juranek, L.W. (2019). Particulate organic matter distributions in surface waters of the Pacific Arctic shelf during the late summer and fall season. Marine Chemistry. https://doi.org/10.1016/J.MARCHEM.2019.03.010
-Hansell, D.A. (2005). Dissolved organic carbon reference material program. Eos Trans. AGU, 86(35), 318. https://doi.org/10.1029/2005EO350003
-Hansell, D.H., Carlson, C.A., Repeta, D.J., & Schlitzer, R. (2009). Dissolved organic matter in the ocean: New insights stimulated by a controversy. Oceanography, 22, 52–61.
-Hedges, J.I., & Stern, J.H. (1984). Carbon and nitrogen determinations of carbonate‐containing solids. In Limnology and Oceanography. https://doi.org/10.4319/lo.1984.29.3.0657
-Hernes, P.J., Dyda, R.Y., & Bergamaschi, B.A. (2020). Reassessing Particulate Organic Carbon Dynamics in the Highly Disturbed San Francisco Bay Estuary. Frontiers in Earth Science, 8(June), 1–13. https://doi.org/10.3389/feart.2020.00185
-Hernes, P.J., Peterson, M.L., Murray, J.W., Wakeham, S.G., Lee, C., & Hedges, J.I. (2001). Particulate carbon and nitrogen fluxes and compositions in the central equatorial Pacific. Deep-Sea Research Part I: Oceanographic Research Papers, 48(9), 1999–2023. https://doi.org/10.1016/S0967-0637(00)00115-1
-Holser, R R., Goni, M.A., & Hales, B. (2011). Design and application of a semi-automated filtration system to study the distribution of particulate organic carbon in the water column of a coastal upwelling system. Marine Chemistry, 123(1–4), 67–77. https://doi.org/10.1016/j.marchem.2010.10.001
-Hooker, S. B., McClain, C., & Mannino, A. (2007). NASA Strategic Planning Document: A Comprehensive Plan for the Long-Term Calibration and Validation of Oceanic Biogochemical Satellite Data (Issue July 2007). http://oceancolor.gsfc.nasa.gov/DOCS/CalValPlan_SP_214152.pdf
-Horowitz, A.J., Smith, J. J., & Elrick, K.A. (2001). Selected laboratory evaluations of the whole-water sample-splitting capabilities of a prototype fourteen-liter teflon churn splitter. 14. http://fisp.wes.army.mil/Horowitz report_ofr01-386.pdf
-Hurd, D.C., & Spencer, D.W. (1991). Introduction and Rationale for the Workshop. In D.C. Hurd & D.W. Spencer (Eds.), Marine Particles: Analysis and Characterization (pp. 1–4). American Geophysical Union. https://doi.org/10.1029/GM063p0001
-Iglewicz, B., & Hoaglin, D.C. (1993). How to Detect and Handle Outliers (E. F. Mykytka (ed.)). ASQC Quality Press.
-JCGM. (2008). Evaluation of measurement data — Guide to the expression of uncertainty in measurement. International Organization for Standardization Geneva ISBN, 50(September), 134. https://doi.org/10.1373/clinchem.2003.030528
-Jónasdóttir, S. H. (2019). Fatty acid profiles and production in marine phytoplankton. Marine Drugs, 17(3). https://doi.org/10.3390/md17030151
-King, P., Kennedy, H., Newton, P.P., Jickells, T.D., Brand, T., Calvert, S., Cauwet, G., Etcheber, H., Head, B., Khripounoff, A., Manighetti, B., & Carlos Miquel, J. (1998). Analysis of total and organic carbon and total nitrogen in settling oceanic particles and a marine sediment: an interlaboratory comparison. Marine Chemistry, 60(3–4), 203–216. https://doi.org/10.1016/S0304-4203(97)00106-0
-Knap, A., Michaels, A., & Close, A. (1994). JGOFS Protocols. JGOFS Planning Office: Woods Hole, MA. 
-Komada, T., Anderson, M.R., & Dorfmeier, C.L. (2008).  Carbonate removal from coastal sediments for the determination of organic carbon and its isotopic signatures, δ 13 C and Δ 14 C: comparison of fumigation and direct acidification by hydrochloric acid. Limnology and Oceanography: Methods. https://doi.org/10.4319/lom.2008.6.254
-Lam, P.J., Lee, J.-M., Heller, M.I., Mehic, S., Xiang, Y., & Bates, N.R. (2018). Size-fractionated distributions of suspended particle concentration and major phase composition from the U.S. GEOTRACES Eastern Pacific Zonal Transect (GP16). Marine Chemistry, 201, 90–107. https://doi.org/https://doi.org/10.1016/j.marchem.2017.08.013
-Lam, P.J., & Marchal, O. (2015). Insights into Particle Cycling from Thorium and Particle Data. Annual Review of Marine Science, 7(1), 159–184. http://dx.doi.org/10.1146/annurev-marine-010814-015623
-Lam, P.J., Ohnemus, D.C., & Auro, M.E. (2015). Size-fractionated major particle composition and concentrations from the US GEOTRACES North Atlantic Zonal Transect. Deep Sea Research Part II: Topical Studies in Oceanography, 116, 303–320. https://doi.org/https://doi.org/10.1016/j.dsr2.2014.11.020
-Lee, S., Kang, Y.-C., & Fuhrman, J.A. (1995). Imperfect retention of natural bacterioplankton cells by glass fiber filters. Marine Ecology Progress Series, 119(1/3), 285–290. http://www.jstor.org/stable/24849817
-Leys, C., Ley, C., Klein, O., Bernard, P., & Licata, L. (2013). Detecting outliers: Do not use standard deviation around the mean, use absolute deviation around the median. Journal of Experimental Social Psychology, 49(4), 764–766. https://doi.org/10.1016/j.jesp.2013.03.013
-Li, W.K.W., & Dickie, P.M. (1985). Growth of bacteria in seawater filtered through 0.2 um Nuclepore membranes: implications for dilution experiments. Marine Ecology Progress Series, 26(3), 245–252. http://www.jstor.org/stable/24817425
-Liu, H., Probert, I., Uitz, J., Claustre, H., Aris-Brosou, S., Frada, M., Not, F., de Vargas, C., Liu, H., Claustre, H., Not, F., Frada, M., de Vargas, C., Probert, I., Uitz, J., Claustre, H., Aris-Brosou, S., Frada, M., Not, F., & de Vargas, C. (2009). Extreme diversity in noncalcifying haptophytes explains a major pigment paradox in open oceans. Proceedings of the National Academy of Sciences, 106(31), 12803–12808. https://doi.org/10.1073/pnas.0905841106
-Liu, Z., Stewart, G., Kirk Cochran, J., Lee, C., Armstrong, R.A., Hirschberg, D.J., Gasser, B., & Miquel, J.-C. (2005). Why do POC concentrations measured using Niskin bottle collections sometimes differ from those using in-situ pumps? Deep Sea Research Part I: Oceanographic Research Papers, 52(7), 1324–1344. https://doi.org/http://dx.doi.org/10.1016/j.dsr.2005.02.005
-Longhurst, A.R., & Glen Harrison, W. (1989). The biological pump: Profiles of plankton production and consumption in the upper ocean. 22(1), 47–123. http://www.sciencedirect.com/science/article/pii/0079661189900104
-Maiti, K., O., Buessler. K.M., Pike S.M., Claudia, B., Pinghe, C., Weifang, C., et al. (2012). Intercalibration studies of short--lived thorium--234 in the water column and marine particles. Limnology and Oceanography: Methods, 10(9), 631–644. https://doi.org/10.4319/lom.2012.10.631
-Martiny, A.C., Vrugt, J.A., & Lomas, M.W. (2014). Concentrations and ratios of particulate organic carbon, nitrogen, and phosphorus in the global ocean. Scientific Data, 1, 140048. https://doi.org/10.1038/sdata.2014.48
-McDonnell, A.M.P., Lam, P., Lamborg, C.H., Buesseler, K. O., Sanders, R., Riley, J. S., et al. (2015). The oceanographic toolbox for the collection of sinking and suspended marine particles. Progress in Oceanography, 133(September), 17–31. https://doi.org/http://dx.doi.org/10.1016/j.pocean.2015.01.007
-Menzel, D.W. (1966). Bubbling of sea water and the production of organic particles: a re-evaluation. Deep-Sea Research and Oceanographic Abstracts, 13(5), 963–966. https://doi.org/10.1016/0011-7471(76)90913-X
-Menzel, D.W. (1967). Particulate organic carbon in the deep sea. Deep Sea Research and Oceanographic Abstracts, 14(2), 229–238. https://doi.org/10.1016/0011-7471(67)90008-3
-Moran, S.B., Charette, M.A.A., Pike, S. M., Wicklund, C.A., Bradley, M.S., Charette, M.A.A., Pike, S. M., & Wicklund, C.A. (1999). Differences in seawater particulate organic carbon concentration in samples collected using small- and large-volume methods: the importance of DOC adsorption to the filter blank S.B. Marine Chemistry, 67(1–2), 33–42. papers://d389027f-1c90-43ee-8f36-77ce4678000f/Paper/p111
-Morán, X.G., Gasol, J.M., Arin, L., & Estrada, M. (1999). A comparison between glass fiber and membrane filters for the estimation of phytoplankton POC and DOC production. Marine Ecology Progress Series, 187, 31–41. https://www.int-res.com/abstracts/meps/v187/p31-41/
-National Institute of Standards and Technology. (2013). Report of investigation. Reference Material 8704. Buffalo River Sediment. https://www-s.nist.gov/m-srmors/certificates/8704.pdf
-National Research Council. (2002). Chemical Reference Materials: Setting the Standards for Ocean Science. In Chemical Reference Materials. National Academies Press. https://doi.org/10.17226/10476
-Nelson, D.W., & Sommers, L.E. (1996). Total Carbon, Organic Carbon, and Organic Matter. In D. L. Sparks, A.L. Page, P.A. Helmke, R.H. Loeppert, P.N. Soltanpour, M.A. Tabatabai, C.T. Johnston, & M.E. Sumner (Eds.), Soil Science Society of America and American Society of Agronomy. Methods of Soil Analysis. Part 3 Chemical Methods (pp. 961–1010). Soil Science Society of America, Inc.
-Novak, M., Cetinić, I., Chaves, J., & Mannino, A. (2018). Protocols for processing and measuring particulate organic carbon (poc) samples: Assessing the efficiency of acidification methods used to remove the inorganic fraction of particulate carbon samples collected on glass fiber filters: Poster Presentation At.
-Novak, M., Cetinić, I., Chaves, J., & Mannino, A. (2018). The adsorption of dissolved organic carbon onto glass fiber filters and its effect on the measurement of particulate organic carbon: A laboratory and modeling exercise. Limnology and Oceanography: Methods, 16(6), 356–366. https://doi.org/10.1002/lom3.10248
-Oczkowski, A., Schmidt, C., Santos, E., Miller, K., Hanson, A., & Cobb, D. (2018). How the Distribution of Anthropogenic Nitrogen Has Changed in Narragansett Bay (RI, USA) Following Major Reductions in Nutrient Loads. Estuaries and Coasts, 41(8). https://doi.org/10.1007/s12237-018-0435-2
-Paver, C.R., Codispoti, L.A., Coles, V. J., & Cooper, L.W. (2020). Sampling errors arising from carousel entrainment and insufficient flushing of oceanographic sampling bottles. Limnology and Oceanography: Methods. https://doi.org/10.1002/lom3.10368
-Planquette, H., & Sherrell, R.M. (2012). Sampling for particulate trace element determination using water sampling bottles: methodology and comparison to in situ pumps. Limnology and Oceanography: Methods, 10(5), 367–388. https://doi.org/10.4319/lom.2012.10.367
-R Core Team. (2018). R: A Language and Environment for Statistical Computing. https://www.r-project.org/
-Rasse, R., Dall’Olmo, G., Graff, J., Westberry, T.K., van Dongen-Vogels, V., & Behrenfeld, M.J. (2017). Evaluating Optical Proxies of Particulate Organic Carbon across the Surface Atlantic Ocean. Frontiers in Marine Science, 4, 367. https://www.frontiersin.org/article/10.3389/fmars.2017.00367
-Rosengard, S.Z., Lam, P.J., McNichol, A.P., Johnson, C.G., & Galy, V.V. (2018). The effect of sample drying temperature on marine particulate organic carbon composition. Limnology and Oceanography: Methods, 16(5), 286–298. https://doi.org/10.1002/lom3.10245
-SciPy Community. (2019). Median absolute deviation. GitHub. https://scipy.github.io/devdocs/generated/scipy.stats.median_absolute_deviation.html
-Shrivastava, A., & Gupta, V. (2011). Methods for the determination of limit of detection and limit of quantitation of the analytical methods. Chronicles of Young Scientists, 2(1), 21. https://doi.org/10.4103/2229-5186.79345
-Siegel, D.A., Buesseler, K.O., Doney, S.C., Sailley, S.F., Behrenfeld, M.J., & Boyd, P.W. (2014). Global assessment of ocean carbon export by combining satellite observations and food-web models. Global Biogeochemical Cycles, 28(3), 181–196. https://doi.org/10.1002/2013GB004743
-Smith, S.R., Bourassa, M.A., Bradley, E.F., Cosca, C., Fairall, C.W., Goñi, G.J., et al. (2010). Automated Underway Oceanic and Atmospheric Measurements from Ships. In J. Hall, D.E. Harrison, & D. Stammer (Eds.), Proceedings of OceanObs’09: Sustained Ocean Observations and Information for Society (Vol. 2), Venice, Italy, 21-25 September 2009 (Vol. 2, pp. 945–958). European Space Agency. https://doi.org/10.5270/OceanObs09.cwp.82
-Stramski, D., Reynolds, R.A., Babin, M., Kaczmarek, S., Lewis, M.R., Röttgers, R., Sciandra, A., Stramska, M., Twardowski, M.S., Franz, B.A., & Claustre, H. (2008). Relationships between the surface concentration of particulate organic carbon and optical properties in the eastern South Pacific and eastern Atlantic Oceans. Biogeosciences, 5(1), 171–201. https://doi.org/10.5194/bg-5-171-2008
-Suter, E.A., Scranton, M. I., Chow, S., Stinton, D., Medina, F.L., & Taylor, G.T. (2016). Niskin bottle sample collection aliases microbial community composition and biogeochemical interpretation. Limnology and Oceanography, 62(2), 606–617. https://doi.org/10.1002/lno.10447
-Taylor, J. (1997). An Introduction to Error Analysis: The Study of Uncertainties in Physical Measurements (2nd ed.). University Science Books. https://doi.org/citeulike-article-id:3398462
-Turnewitsch, R., Springer, B.M., Kiriakoulakis, K., Vilas, J.C., Arístegui, J., Wolff, G., Peine, F., Werk, S., Graf, G., Waniek, J.J., Arístegui, J., Wolff, G., Peine, F., Werk, S., Graf, G., & Waniek, J.J. (2007). Determination of particulate organic carbon (POC) in seawater: The relative methodological importance of artificial gains and losses in two glass-fiber-filter-based techniques. Marine Chemistry, 105(3–4), 208–228. https://doi.org/http://dx.doi.org/10.1016/j.marchem.2007.01.017
-Twining, B.S., Rauschenberg, S., Morton, P.L., Ohnemus, D.C., & Lam, P J. (2015). Comparison of particulate trace element concentrations in the North Atlantic Ocean as determined with discrete bottle sampling and in situ pumping. Deep Sea Research Part II: Topical Studies in Oceanography, 116, 273–282. https://doi.org/https://doi.org/10.1016/j.dsr2.2014.11.005
-UNOLS. (2017). Underway ``clean’’ seawater systems. https://www.unols.org/sites/default/files/201003ficap06.pdf
-USGS. (2006). Collection of water samples (ver. 2.0): U.S. Geological Survey Techniques of Water-Resources Investigations (F.D. Wilde (ed.)). http://pubs.water.usgs.gov/twri9A4/
-Verardo, D.J., Froelich, P.N., & McIntyre, A. (1990). Determination of organic carbon and nitrogen in marine sediments using the Carlo Erba NA-1500 analyzer. Deep Sea Research Part A, 37(1), 157–165. http://www.sciencedirect.com/science/article/pii/019801499090034S
-Villareal, T.A., & Lipschultz, F. (1995). Internal nitrate concentrations in single cells of large phytoplankton from the Sargasso Sea. Journal of Phycology, 31(5), 689–696. https://doi.org/10.1111/j.0022-3646.1995.00689.x
-Volk, T., & Hoffert, M.I. (1985). Ocean Carbon Pumps: Analysis of Relative Strengths and Efficiencies in Ocean-Driven Atmospheric CO2 Changes. In E.T. Sundquist & W.S. Broecker (Eds.), The Carbon Cycle and Atmospheric CO2: Natural Variations Archean to Present (pp. 99–110). American Geophysical Union. http://dx.doi.org/10.1029/GM032p0099
-Werdell, P J., & Bailey, S.W. (2002). The SeaWiFS Bio-optical Archive and Storage System (SeaBASS): Current architecture and implementation, NASA Tech. Memo. 2002-211617, G.S. Fargion and C.R. McClain, Eds. 45.
-Westberry, T.K., Dall’Olmo, G., Boss, E., Behrenfeld, M.J., Moutin, T., Olmo, G.D., Boss, E., & Behrenfeld, M. J. (2010). Coherence of particulate beam attenuation and backscattering coefficients in diverse open ocean environments. Optics Express, 18(15), 15419. https://doi.org/10.1364/oe.18.015419
-Worsfold, P. J., Achterberg, E.P., Birchill, A. J., Clough, R., Leito, I., Lohan, M.C., Milne, A., & Ussher, S.J. (2019). Estimating uncertainties in oceanographic trace element measurements. Frontiers in Marine Science, 6(JAN), 1–9. https://doi.org/10.3389/fmars.2018.00515
-Xiang, Y., & Lam, P.J. (2020). Size-Fractionated Compositions of Marine Suspended Particles in the Western Arctic Ocean: Lateral and Vertical Sources. Journal of Geophysical Research: Oceans, 125(8), 1–33. https://doi.org/10.1029/2020JC016144
-Yang, K., & Xing, B. (2009). Adsorption of fulvic acid by carbon nanotubes from water. Environmental Pollution, 157(4), 1095–1100. https://doi.org/https://doi.org/10.1016/j.envpol.2008.11.007
+Altabet, M A, Bishop, J.K.B., & McCarthy, J.J. (1992). Differences in particulate nitrogen concentration and isotopic composition for samples collected by bottles and large-volume pumps in Gulf Stream warm-core rings and the Sargasso Sea. Deep Sea Research Part A. Oceanographic Research Papers, 39, S405–S417. https://doi.org/http://dx.doi.org/10.1016/S0198-0149(11)80022-1  
+Altabet, Mark A. (1990). Organic C, N, and stable isotopic composition of particulate matter collected on glass--fiber and aluminum oxide filters. Limnology and Oceanography, 35(4), 902–909. https://doi.org/10.4319/lo.1990.35.4.0902  
+Analytical Methods Committee. (2006). Evaluation of analytical instrumentation. Part XIX CHNS elemental analysers. Accreditation and Quality Assurance, 11(11), 569–576. https://doi.org/10.1007/s00769-006-0185-x  
+Arrigo, K.R., Robinson, D.H., Worthen, D.L., Dunbar, R. B., DiTullio, G.R., VanWoert, M., & Lizotte, M.P. (1999). Phytoplankton community structure and the drawdown of nutrients and CO2 in the Southern Ocean. Science, 283(5400), 365–367. https://doi.org/10.1126/science.283.5400.365  
+Bao, R., McNichol, A.P., Hemingway, J.D., Lardie Gaylord, M.C., & Eglinton, T.I. (2019). Influence of Different Acid Treatments on the Radiocarbon Content Spectrum of Sedimentary Organic Matter Determined by RPO/Accelerator Mass Spectrometry. Radiocarbon. https://doi.org/10.1017/rdc.2018.125  
+Bare, S.R., Lilly, M., Chermak, J., Eggert, R., Halperin, W., Hannahs, S., Hayes, S., Hendrich, M., Hurd, A., Osofsky, M., & Tway, C. (2016). The U.S. Research Community’s Liquid Helium Crisis. https://doi.org/10.7936/K7571B6D  
+Bauer, J.E., Druffel, E.R.M., Wolgast, D.M., & Griffin, S. (2002). Temporal and regional variability in sources and cycling of DOC and POC in the northwest Atlantic continental shelf and slope. Deep Sea Research Part II: Topical Studies in Oceanography, 49(20), 4387–4419. https://doi.org/https://doi.org/10.1016/S0967-0645(02)00123-6  
+Benner, R. (2002). Chemical composition and reactivity. In D. Hansell & C. Carlson (Eds.), Biogeochemistry of Marine Dissolved Organic Matter (pp. 59–85). Academic Press.  
+Bidigare, R.R., Heukelem, L. Van, Trees, C.C., & Perl, J. (2004). HPLC Phytoplankton Pigments: Sampling, Laboratory Methods, and Quality Assurance Procedures. In J. L. Mueller, G.S. Fargion, & C.R. McClain (Eds.), Ocean Optics Protocols For Satellite Ocean Color Sensor Validation: Vol. Revision 5. National Aeronautics and Space Administration.  
+Bishop, J. K.B., & Edmond, J. M. (1976). A new large volume filtration system for the sampling of oceanic particulate matter. Journal of Marine Research, 34, 181–198.  
+Bishop, J. K.B. (2011). Getting Good Weight. Marine Particles: Analysis and Characterization, 229–234. https://doi.org/10.1029/gm063p0229  
+Bishop, J.K.B., Lam, P.J., & Wood, T.J. (2012). Getting good particles: Accurate sampling of particles by large volume in-situ filtration. Limnology and Oceanography: Methods, 10(9), 681–710. https://doi.org/10.4319/lom.2012.10.681  
+Bishop, J.K.B., Schupack, D., Sherrell, R.M., & Conte, M. (1985). A Multiple-Unit Large-Volume In Situ Filtration System for Sampling Oceanic Particulate Matter in Mesoscale Environments. In Mapping Strategies in Chemical Oceanography (Vol. 209, pp. 155–175). American Chemical Society. https://doi.org/doi:10.1021/ba-1985-0209.ch009  
+Bopp, L., Monfray, P., Aumont, O., Dufresne, J.-L., Le Treut, H., Madec, G., Terray, L., & Orr, J. C. (2001). Potential impact of climate change on marine export production. Global Biogeochemical Cycles, 15(1), 81–99. https://doi.org/10.1029/1999GB001256  
+Boss, E., Haëntjens, N., Ackleson, S., Balch, B., Chase, A., Dall’Olmo, G., Freeman, S., Liu, Y., Loftin, J., Neary, W., Nelson, N., Novak, M., Slade, W., Proctor, C., Tortell, P., & Westberry, T. (2019). Inherent Optical Property Measurements and Protocols: Best practices for the collection and processing of ship-based underway flow-through optical data. In A. R. Neeley & A. Mannino (Eds.), IOCCG Ocean Optics and Biogeochemistry Protocols for Satellite Ocean Colour Sensor Validation (pp. 1–23). IOCCG. https://doi.org/http://dx.doi.org/10.25607/OBP-664  
+Boss, Emmanuel, Slade, W. H., Behrenfeld, M., & Dall’Olmo, G. (2009). Acceptance angle effects on the beam attenuation in the ocean. Optics Express, 17(3), 1535–1550. https://doi.org/10.1364/OE.17.001535  
+Brodie, C. R., Leng, M. J., Casford, J. S. L., Kendrick, C. P., Lloyd, J. M., Yongqiang, Z., & Bird, M. I. (2011). Evidence for bias in C and N concentrations and δ13C composition of terrestrial and aquatic organic materials due to pre-analysis acid preparation methods. Chemical Geology. https://doi.org/10.1016/j.chemgeo.2011.01.007  
+Buesseler, K., Ball, L., Andrews, J., Benitez-Nelson, C., Belastock, R., Chai, F., & Chao, Y. (1998). Upper ocean export of particulate organic carbon in the Arabian Sea derived from thorium-234. Deep Sea Research Part II: Topical Studies in Oceanography, 45(10), 2461–2487. https://doi.org/https://doi.org/10.1016/S0967-0645(98)80022-2  
+Byers, K. B. (1998). Risks Associated with Liquid Nitrogen Cryogenic Storage Systems. Journal of the American Biological Safety Association, 3(4), 143–146. https://doi.org/10.1177/109135059800300406  
+Carabel, S., Godínez-Domínguez, E., Verísimo, P., Fernández, L., & Freire, J. (2006). An assessment of sample processing methods for stable isotope analyses of marine food webs. Journal of Experimental Marine Biology and Ecology, 336(2), 254–261. https://doi.org/10.1016/j.jembe.2006.06.001  
+Cetinić, I., Perry, M. J., Briggs, N. T., Kallin, E., D’Asaro, E. A., & Lee, C. M. (2012). Particulate organic carbon and inherent optical properties during 2008 North Atlantic bloom experiment. Journal of Geophysical Research: Oceans, 117(6). https://doi.org/10.1029/2011JC007771  
+Cetinić, I., Poulton, N., & Slade, W. H. (2016). Characterizing the phytoplankton soup: pump and plumbing effects on the particle assemblage in underway optical seawater systems. Optics Express, 24(18), 20703. https://doi.org/10.1364/oe.24.020703  
+Chandler, C., Groman, R., Allison, M., Wiebe, P., Glover, D., & Gegg, S. (2012). Effective management of ocean biogeochemistry and ecological data: The BCO-DMO story. EGU General Assembly Conference Abstracts, 14, 1258. http://adsabs.harvard.edu/abs/2012EGUGA..14.1258C  
+Collos, Y., Jauzein, C., & Hatey, E. (2014). Particulate carbon and nitrogen determinations in tracer studies: The neglected variables. Appl Radiat Isot, 94, 14–22. https://doi.org/10.1016/j.apradiso.2014.06.015  
+Cutter, G., Casciotti, K., Croot, P., Geibert, W., Heimbürger, L.-E., Lohan, M., Planquette, H., & van de Flierdt, T. (2017). Sampling and Sample-handling Protocols for GEOTRACES Cruises. http://www.geotraces.org/images/Cookbook.pdf  
+Dortch, Q., Clayton, J. R., Thoresen, S. S., & Ahmed, S. I. (1984). Species differences in accumulation of nitrogen pools in phytoplankton. Marine Biology, 81(3), 237–250. https://doi.org/10.1007/BF00393218  
+Ellison, S. L. R., & Williams, A. (2012). EURACHEM/CITAC Guide CG 4: Quantifying uncertainty in analytical measurement (S. L. R. Ellison & A. Williams (eds.); Third edit). https://doi.org/0 948926 15 5  
+Fadeeva, V. P., Tikhova, V. D., & Nikulicheva, O. N. (2008). Elemental analysis of organic compounds with the use of automated CHNS analyzers. Journal of Analytical Chemistry, 63(11), 1094–1106. https://doi.org/10.1134/s1061934808110142  
+Fuhrman, J., & Bell, T. (1985). Biological considerations in the measurement of dissolved free amino acids in seawater and implications for chemical and microbiological studies. Marine Ecology Progress Series. https://doi.org/10.3354/meps025013  
+Galloway, A. W. E., & Winder, M. (2015). Partitioning the relative importance of phylogeny and environmental conditions on phytoplankton fatty acids. PLoS ONE, 10(6), 1–23. https://doi.org/10.1371/journal.pone.0130053  
+Gardner, W. D., Mishonov, A. V., & Richardson, M. J. (2006). Global POC concentrations from in-situ and satellite data. Deep-Sea Research Part II: Topical Studies in Oceanography, 53(5–7), 718–740. https://doi.org/10.1016/j.dsr2.2006.01.029  
+Gardner, Wilford D., Richardson, M. J., Carlson, C. A., Hansell, D., & Mishonov, A. V. (2003). Determining true particulate organic carbon: Bottles, pumps and methodologies. Deep Sea Research Part II: Topical Studies in Oceanography, 50(3–4), 655–674. https://doi.org/10.1016/S0967-0645(02)00589-1  
+Gardner, Wilford D., Walsh, I. D., & Richardson, M. J. (1993). Biophysical forcing of particle production and distribution during a spring bloom in the North Atlantic. Deep-Sea Research Part II, 40(1–2), 171–195. https://doi.org/10.1016/0967-0645(93)90012-C  
+Gardner, Wilford D. (1977). Incomplete extraction of rapidly settling particles from water samplers. Limnology and Oceanography, 22(4), 764–768. https://doi.org/10.4319/lo.1977.22.4.0764  
+Gardner, W.D., Biscaye, P. E., Zaneveld, J. R.V, & Richardson, M. J. (1985). Calibration and comparison of the LDGO nephelometer and the OSU transmissometer on the Nova Scotian rise. Marine Geology, 66(1), 323–344. https://doi.org/https://doi.org/10.1016/0025-3227(85)90037-4  
+GEOTRACES. (2010). GEOTRACES: An International study of the marine biogeochemical cycles of trace elements and their isotopes. http://www.geotraces.org/  
+Goñi, M.A., Corvi, E. R., Welch, K. A., Buktenica, M., Lebon, K., Alleau, Y., & Juranek, L.W. (2019). Particulate organic matter distributions in surface waters of the Pacific Arctic shelf during the late summer and fall season. Marine Chemistry. https://doi.org/10.1016/J.MARCHEM.2019.03.010  
+Hansell, D.A. (2005). Dissolved organic carbon reference material program. Eos Trans. AGU, 86(35), 318. https://doi.org/10.1029/2005EO350003  
+Hansell, D.H., Carlson, C.A., Repeta, D.J., & Schlitzer, R. (2009). Dissolved organic matter in the ocean: New insights stimulated by a controversy. Oceanography, 22, 52–61.  
+Hedges, J.I., & Stern, J.H. (1984). Carbon and nitrogen determinations of carbonate‐containing solids. In Limnology and Oceanography. https://doi.org/10.4319/lo.1984.29.3.0657  
+Hernes, P.J., Dyda, R.Y., & Bergamaschi, B.A. (2020). Reassessing Particulate Organic Carbon Dynamics in the Highly Disturbed San Francisco Bay Estuary. Frontiers in Earth Science, 8(June), 1–13. https://doi.org/10.3389/feart.2020.00185  
+Hernes, P.J., Peterson, M.L., Murray, J.W., Wakeham, S.G., Lee, C., & Hedges, J.I. (2001). Particulate carbon and nitrogen fluxes and compositions in the central equatorial Pacific. Deep-Sea Research Part I: Oceanographic Research Papers, 48(9), 1999–2023. https://doi.org/10.1016/S0967-0637(00)00115-1  
+Holser, R R., Goni, M.A., & Hales, B. (2011). Design and application of a semi-automated filtration system to study the distribution of particulate organic carbon in the water column of a coastal upwelling system. Marine Chemistry, 123(1–4), 67–77. https://doi.org/10.1016/j.marchem.2010.10.001  
+Hooker, S. B., McClain, C., & Mannino, A. (2007). NASA Strategic Planning Document: A Comprehensive Plan for the Long-Term Calibration and Validation of Oceanic Biogochemical Satellite Data (Issue July 2007). http://oceancolor.gsfc.nasa.gov/DOCS/CalValPlan_SP_214152.pdf  
+Horowitz, A.J., Smith, J. J., & Elrick, K.A. (2001). Selected laboratory evaluations of the whole-water sample-splitting capabilities of a prototype fourteen-liter teflon churn splitter. 14. http://fisp.wes.army.mil/Horowitz report_ofr01-386.pdf  
+Hurd, D.C., & Spencer, D.W. (1991). Introduction and Rationale for the Workshop. In D.C. Hurd & D.W. Spencer (Eds.), Marine Particles: Analysis and Characterization (pp. 1–4). American Geophysical Union. https://doi.org/10.1029/GM063p0001  
+Iglewicz, B., & Hoaglin, D.C. (1993). How to Detect and Handle Outliers (E. F. Mykytka (ed.)). ASQC Quality Press.  
+JCGM. (2008). Evaluation of measurement data — Guide to the expression of uncertainty in measurement. International Organization for Standardization Geneva ISBN, 50(September), 134. https://doi.org/10.1373/clinchem.2003.030528  
+Jónasdóttir, S. H. (2019). Fatty acid profiles and production in marine phytoplankton. Marine Drugs, 17(3). https://doi.org/10.3390/md17030151  
+King, P., Kennedy, H., Newton, P.P., Jickells, T.D., Brand, T., Calvert, S., Cauwet, G., Etcheber, H., Head, B., Khripounoff, A., Manighetti, B., & Carlos Miquel, J. (1998). Analysis of total and organic carbon and total nitrogen in settling oceanic particles and a marine sediment: an interlaboratory comparison. Marine Chemistry, 60(3–4), 203–216. https://doi.org/10.1016/S0304-4203(97)00106-0  
+Knap, A., Michaels, A., & Close, A. (1994). JGOFS Protocols. JGOFS Planning Office: Woods Hole, MA.   
+Komada, T., Anderson, M.R., & Dorfmeier, C.L. (2008).  Carbonate removal from coastal sediments for the determination of organic carbon and its isotopic signatures, δ 13 C and Δ 14 C: comparison of fumigation and direct acidification by hydrochloric acid. Limnology and Oceanography: Methods. https://doi.org/10.4319/lom.2008.6.254  
+Lam, P.J., Lee, J.-M., Heller, M.I., Mehic, S., Xiang, Y., & Bates, N.R. (2018). Size-fractionated distributions of suspended particle concentration and major phase composition from the U.S. GEOTRACES Eastern Pacific Zonal Transect (GP16). Marine Chemistry, 201, 90–107. https://doi.org/https://doi.org/10.1016/j.marchem.2017.08.013  
+Lam, P.J., & Marchal, O. (2015). Insights into Particle Cycling from Thorium and Particle Data. Annual Review of Marine Science, 7(1), 159–184. http://dx.doi.org/10.1146/annurev-marine-010814-015623  
+Lam, P.J., Ohnemus, D.C., & Auro, M.E. (2015). Size-fractionated major particle composition and concentrations from the US GEOTRACES North Atlantic Zonal Transect. Deep Sea Research Part II: Topical Studies in Oceanography, 116, 303–320. https://doi.org/https://doi.org/10.1016/j.dsr2.2014.11.020  
+Lee, S., Kang, Y.-C., & Fuhrman, J.A. (1995). Imperfect retention of natural bacterioplankton cells by glass fiber filters. Marine Ecology Progress Series, 119(1/3), 285–290. http://www.jstor.org/stable/24849817  
+Leys, C., Ley, C., Klein, O., Bernard, P., & Licata, L. (2013). Detecting outliers: Do not use standard deviation around the mean, use absolute deviation around the median. Journal of Experimental Social Psychology, 49(4), 764–766. https://doi.org/10.1016/j.jesp.2013.03.013  
+Li, W.K.W., & Dickie, P.M. (1985). Growth of bacteria in seawater filtered through 0.2 um Nuclepore membranes: implications for dilution experiments. Marine Ecology Progress Series, 26(3), 245–252. http://www.jstor.org/stable/24817425  
+Liu, H., Probert, I., Uitz, J., Claustre, H., Aris-Brosou, S., Frada, M., Not, F., de Vargas, C., Liu, H., Claustre, H., Not, F., Frada, M., de Vargas, C., Probert, I., Uitz, J., Claustre, H., Aris-Brosou, S., Frada, M., Not, F., & de Vargas, C. (2009). Extreme diversity in noncalcifying haptophytes explains a major pigment paradox in open oceans. Proceedings of the National Academy of Sciences, 106(31), 12803–12808. https://doi.org/10.1073/pnas.0905841106  
+Liu, Z., Stewart, G., Kirk Cochran, J., Lee, C., Armstrong, R.A., Hirschberg, D.J., Gasser, B., & Miquel, J.-C. (2005). Why do POC concentrations measured using Niskin bottle collections sometimes differ from those using in-situ pumps? Deep Sea Research Part I: Oceanographic Research Papers, 52(7), 1324–1344. https://doi.org/http://dx.doi.org/10.1016/j.dsr.2005.02.005  
+Longhurst, A.R., & Glen Harrison, W. (1989). The biological pump: Profiles of plankton production and consumption in the upper ocean. 22(1), 47–123. http://www.sciencedirect.com/science/article/pii/0079661189900104  
+Maiti, K., O., Buessler. K.M., Pike S.M., Claudia, B., Pinghe, C., Weifang, C., et al. (2012). Intercalibration studies of short--lived thorium--234 in the water column and marine particles. Limnology and Oceanography: Methods, 10(9), 631–644. https://doi.org/10.4319/lom.2012.10.631  
+Martiny, A.C., Vrugt, J.A., & Lomas, M.W. (2014). Concentrations and ratios of particulate organic carbon, nitrogen, and phosphorus in the global ocean. Scientific Data, 1, 140048. https://doi.org/10.1038/sdata.2014.48  
+McDonnell, A.M.P., Lam, P., Lamborg, C.H., Buesseler, K. O., Sanders, R., Riley, J. S., et al. (2015). The oceanographic toolbox for the collection of sinking and suspended marine particles. Progress in Oceanography, 133(September), 17–31. https://doi.org/http://dx.doi.org/10.1016/j.pocean.2015.01.007  
+Menzel, D.W. (1966). Bubbling of sea water and the production of organic particles: a re-evaluation. Deep-Sea Research and Oceanographic Abstracts, 13(5), 963–966. https://doi.org/10.1016/0011-7471(76)90913-X  
+Menzel, D.W. (1967). Particulate organic carbon in the deep sea. Deep Sea Research and Oceanographic Abstracts, 14(2), 229–238. https://doi.org/10.1016/0011-7471(67)90008-3  
+Moran, S.B., Charette, M.A.A., Pike, S. M., Wicklund, C.A., Bradley, M.S., Charette, M.A.A., Pike, S. M., & Wicklund, C.A. (1999). Differences in seawater particulate organic carbon concentration in samples collected using small- and large-volume methods: the importance of DOC adsorption to the filter blank S.B. Marine Chemistry, 67(1–2), 33–42. papers://d389027f-1c90-43ee-8f36-77ce4678000f/Paper/p111  
+Morán, X.G., Gasol, J.M., Arin, L., & Estrada, M. (1999). A comparison between glass fiber and membrane filters for the estimation of phytoplankton POC and DOC production. Marine Ecology Progress Series, 187, 31–41. https://www.int-res.com/abstracts/meps/v187/p31-41/  
+National Institute of Standards and Technology. (2013). Report of investigation. Reference Material 8704. Buffalo River Sediment. https://www-s.nist.gov/m-srmors/certificates/8704.pdf  
+National Research Council. (2002). Chemical Reference Materials: Setting the Standards for Ocean Science. In Chemical Reference Materials. National Academies Press. https://doi.org/10.17226/10476  
+Nelson, D.W., & Sommers, L.E. (1996). Total Carbon, Organic Carbon, and Organic Matter. In D. L. Sparks, A.L. Page, P.A. Helmke, R.H. Loeppert, P.N. Soltanpour, M.A. Tabatabai, C.T. Johnston, & M.E. Sumner (Eds.), Soil Science Society of America and American Society of Agronomy. Methods of Soil Analysis. Part 3 Chemical Methods (pp. 961–1010). Soil Science Society of America, Inc.  
+Novak, M., Cetinić, I., Chaves, J., & Mannino, A. (2018). Protocols for processing and measuring particulate organic carbon (poc) samples: Assessing the efficiency of acidification methods used to remove the inorganic fraction of particulate carbon samples collected on glass fiber filters: Poster Presentation At.  
+Novak, M., Cetinić, I., Chaves, J., & Mannino, A. (2018). The adsorption of dissolved organic carbon onto glass fiber filters and its effect on the measurement of particulate organic carbon: A laboratory and modeling exercise. Limnology and Oceanography: Methods, 16(6), 356–366. https://doi.org/10.1002/lom3.10248  
+Oczkowski, A., Schmidt, C., Santos, E., Miller, K., Hanson, A., & Cobb, D. (2018). How the Distribution of Anthropogenic Nitrogen Has Changed in Narragansett Bay (RI, USA) Following Major Reductions in Nutrient Loads. Estuaries and Coasts, 41(8). https://doi.org/10.1007/s12237-018-0435-2  
+Paver, C.R., Codispoti, L.A., Coles, V. J., & Cooper, L.W. (2020). Sampling errors arising from carousel entrainment and insufficient flushing of oceanographic sampling bottles. Limnology and Oceanography: Methods. https://doi.org/10.1002/lom3.10368  
+Planquette, H., & Sherrell, R.M. (2012). Sampling for particulate trace element determination using water sampling bottles: methodology and comparison to in situ pumps. Limnology and Oceanography: Methods, 10(5), 367–388. https://doi.org/10.4319/lom.2012.10.367  
+R Core Team. (2018). R: A Language and Environment for Statistical Computing. https://www.r-project.org/  
+Rasse, R., Dall’Olmo, G., Graff, J., Westberry, T.K., van Dongen-Vogels, V., & Behrenfeld, M.J. (2017). Evaluating Optical Proxies of Particulate Organic Carbon across the Surface Atlantic Ocean. Frontiers in Marine Science, 4, 367. https://www.frontiersin.org/article/10.3389/fmars.2017.00367  
+Rosengard, S.Z., Lam, P.J., McNichol, A.P., Johnson, C.G., & Galy, V.V. (2018). The effect of sample drying temperature on marine particulate organic carbon composition. Limnology and Oceanography: Methods, 16(5), 286–298. https://doi.org/10.1002/lom3.10245  
+SciPy Community. (2019). Median absolute deviation. GitHub. https://scipy.github.io/devdocs/generated/scipy.stats.median_absolute_deviation.html  
+Shrivastava, A., & Gupta, V. (2011). Methods for the determination of limit of detection and limit of quantitation of the analytical methods. Chronicles of Young Scientists, 2(1), 21. https://doi.org/10.4103/2229-5186.79345  
+Siegel, D.A., Buesseler, K.O., Doney, S.C., Sailley, S.F., Behrenfeld, M.J., & Boyd, P.W. (2014). Global assessment of ocean carbon export by combining satellite observations and food-web models. Global Biogeochemical Cycles, 28(3), 181–196. https://doi.org/10.1002/2013GB004743  
+Smith, S.R., Bourassa, M.A., Bradley, E.F., Cosca, C., Fairall, C.W., Goñi, G.J., et al. (2010). Automated Underway Oceanic and Atmospheric Measurements from Ships. In J. Hall, D.E. Harrison, & D. Stammer (Eds.), Proceedings of OceanObs’09: Sustained Ocean Observations and Information for Society (Vol. 2), Venice, Italy, 21-25 September 2009 (Vol. 2, pp. 945–958). European Space Agency. https://doi.org/10.5270/OceanObs09.cwp.82  
+Stramski, D., Reynolds, R.A., Babin, M., Kaczmarek, S., Lewis, M.R., Röttgers, R., Sciandra, A., Stramska, M., Twardowski, M.S., Franz, B.A., & Claustre, H. (2008). Relationships between the surface concentration of particulate organic carbon and optical properties in the eastern South Pacific and eastern Atlantic Oceans. Biogeosciences, 5(1), 171–201. https://doi.org/10.5194/bg-5-171-2008  
+Suter, E.A., Scranton, M. I., Chow, S., Stinton, D., Medina, F.L., & Taylor, G.T. (2016). Niskin bottle sample collection aliases microbial community composition and biogeochemical interpretation. Limnology and Oceanography, 62(2), 606–617. https://doi.org/10.1002/lno.10447  
+Taylor, J. (1997). An Introduction to Error Analysis: The Study of Uncertainties in Physical Measurements (2nd ed.). University Science Books. https://doi.org/citeulike-article-id:3398462  
+Turnewitsch, R., Springer, B.M., Kiriakoulakis, K., Vilas, J.C., Arístegui, J., Wolff, G., Peine, F., Werk, S., Graf, G., Waniek, J.J., Arístegui, J., Wolff, G., Peine, F., Werk, S., Graf, G., & Waniek, J.J. (2007). Determination of particulate organic carbon (POC) in seawater: The relative methodological importance of artificial gains and losses in two glass-fiber-filter-based techniques. Marine Chemistry, 105(3–4), 208–228. https://doi.org/http://dx.doi.org/10.1016/j.marchem.2007.01.017  
+Twining, B.S., Rauschenberg, S., Morton, P.L., Ohnemus, D.C., & Lam, P J. (2015). Comparison of particulate trace element concentrations in the North Atlantic Ocean as determined with discrete bottle sampling and in situ pumping. Deep Sea Research Part II: Topical Studies in Oceanography, 116, 273–282. https://doi.org/https://doi.org/10.1016/j.dsr2.2014.11.005  
+UNOLS. (2017). Underway ``clean’’ seawater systems. https://www.unols.org/sites/default/files/201003ficap06.pdf  
+USGS. (2006). Collection of water samples (ver. 2.0): U.S. Geological Survey Techniques of Water-Resources Investigations (F.D. Wilde (ed.)). http://pubs.water.usgs.gov/twri9A4/  
+Verardo, D.J., Froelich, P.N., & McIntyre, A. (1990). Determination of organic carbon and nitrogen in marine sediments using the Carlo Erba NA-1500 analyzer. Deep Sea Research Part A, 37(1), 157–165. http://www.sciencedirect.com/science/article/pii/019801499090034S  
+Villareal, T.A., & Lipschultz, F. (1995). Internal nitrate concentrations in single cells of large phytoplankton from the Sargasso Sea. Journal of Phycology, 31(5), 689–696. https://doi.org/10.1111/j.0022-3646.1995.00689.x  
+Volk, T., & Hoffert, M.I. (1985). Ocean Carbon Pumps: Analysis of Relative Strengths and Efficiencies in Ocean-Driven Atmospheric CO2 Changes. In E.T. Sundquist & W.S. Broecker (Eds.), The Carbon Cycle and Atmospheric CO2: Natural Variations Archean to Present (pp. 99–110). American Geophysical Union. http://dx.doi.org/10.1029/GM032p0099  
+Werdell, P J., & Bailey, S.W. (2002). The SeaWiFS Bio-optical Archive and Storage System (SeaBASS): Current architecture and implementation, NASA Tech. Memo. 2002-211617, G.S. Fargion and C.R. McClain, Eds. 45.  
+Westberry, T.K., Dall’Olmo, G., Boss, E., Behrenfeld, M.J., Moutin, T., Olmo, G.D., Boss, E., & Behrenfeld, M. J. (2010). Coherence of particulate beam attenuation and backscattering coefficients in diverse open ocean environments. Optics Express, 18(15), 15419. https://doi.org/10.1364/oe.18.015419  
+Worsfold, P. J., Achterberg, E.P., Birchill, A. J., Clough, R., Leito, I., Lohan, M.C., Milne, A., & Ussher, S.J. (2019). Estimating uncertainties in oceanographic trace element measurements. Frontiers in Marine Science, 6(JAN), 1–9. https://doi.org/10.3389/fmars.2018.00515  
+Xiang, Y., & Lam, P.J. (2020). Size-Fractionated Compositions of Marine Suspended Particles in the Western Arctic Ocean: Lateral and Vertical Sources. Journal of Geophysical Research: Oceans, 125(8), 1–33. https://doi.org/10.1029/2020JC016144  
+Yang, K., & Xing, B. (2009). Adsorption of fulvic acid by carbon nanotubes from water. Environmental Pollution, 157(4), 1095–1100. https://doi.org/https://doi.org/10.1016/j.envpol.2008.11.007  
 
 # A Summary Appendices
 ### A.1.1 Consensus Summary of Best Practices
