@@ -1,8 +1,9 @@
+This repository contains an editable version of the published IOCCG Protocols for community discussion, and Q&A through the "issues" feature. These discussions are meant to be open and accessible to all interested in using the protocol, and will help advance improvements and updates to the protocol versions through community discussion. See the DOI or the [IOCCG website](https://ioccg.org/what-we-do/ioccg-publications/ioccg-protocols/) for the published version (in PDF).
+
 # IOCCG Protocol Series	
 ## Ocean Optics & Biogeochemistry Protocols for Satellite Ocean Colour Sensor Validation
 ## Protocol 6: Particulate Organic Matter Sampling and Measurement Protocols: Consensus Towards Future Ocean Color Missions
 DOI: [http://dx.doi.org/10.25607/OBP-1646](http://dx.doi.org/10.25607/OBP-1646)
-
 
 ## Authors:
 Joaquín E. Chaves, Ivona Cetinić, Giorgio Dall’Olmo, Meg Estapa, Wilford Gardner, Miguel Goñi, Jason R. Graff, Peter Hernes, Phoebe J. Lam, Zhanfei Liu, Michael W. Lomas, Antonio Mannino, Michael G. Novak, Robert Turnewitsch, P. Jeremy Werdell, Toby K. Westberry
