@@ -15,7 +15,7 @@ International Ocean Colour Coordinating Group (IOCCG) in collaboration with Nati
 
 IOCCG, Dartmouth, Canada
 
-Originally published: August 2021
+Published: August 2021
 
 ## Background
 The workshop that initiated this protocol development effort was held at NASA Goddard Space Flight Center from November 30–December 2, 2016. It was sponsored by NASA through an award from the ROSES NNH15ZDA001N-TWSC- Topical Workshops, Symposia, and Conferences Program. 
@@ -42,8 +42,8 @@ Report of a NASA-sponsored workshop with contributions (alphabetical) from:
 ## Other Acknowledgements
 Thanks to the Associate Editorial Peer Review Board Members for their constructive comments on this document:
 
-Lou Codispoti, University of Maryland Center for Environmental Science Horn Point Laboratory, Cambridge, MD 21613
-James W McClelland, The University of Texas, Marine Science Institute, Port Aransas, TX 78373
-Hélène Planquette, Laboratoire des Sciences De L’Environnement Marin, Institut Universitaire Européen de la Mer, 29280 Plouzané, France
+- Lou Codispoti, University of Maryland Center for Environmental Science Horn Point Laboratory, Cambridge, MD 21613
+- James W McClelland, The University of Texas, Marine Science Institute, Port Aransas, TX 78373
+- Hélène Planquette, Laboratoire des Sciences De L’Environnement Marin, Institut Universitaire Européen de la Mer, 29280 Plouzané, France
 
-©2021 IOCCG
+©IOCCG 2021
